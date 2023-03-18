@@ -12,6 +12,10 @@
 		<data>
 		XeNJCWAjipe3f59TxQGWtSCBAQI=
 		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -40,9 +44,20 @@
 		<data>
 		AgG9OaBqGlLlSsDbnE/6b1bb0xU=
 		</data>
+		<key>Resources/logo.png</key>
+		<data>
+		IDsoHh36AQc5kIM7YtCMIOetXS0=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MonoBundle/CommunityToolkit.Mvvm.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZdC70jHEKi0+I0r1FTTj/23Iyvsb7SVj3Y78fa45r8o=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1317,6 +1332,13 @@
 			yNBFrd//oJVZZHv78FtIXculJd8jLjSKYHZ1ctW6ehg=
 			</data>
 		</dict>
+		<key>MonoBundle/TinyMvvm.Maui.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I0XahygD5zbvZK038yipwCsVc4hFMSaTkdftRU73pls=
+			</data>
+		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1328,14 +1350,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/7O64fJcrzYCJ7N3BwOtr+5lrTW/hnbTVy2S7Xi5yY=
+			H6QDeePoc+HBEHzHDkeLwm6CcbeIbrGV029lTn3DQus=
 			</data>
 		</dict>
 		<key>MonoBundle/app.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZFc44gvO0W00l5PwxPIa5vtAkcazIIMZJQ23GEfOtN0=
+			gtbxd6399cegsSyEyoYFKLdrgl80mNXPTVyJDY9C/GE=
 			</data>
 		</dict>
 		<key>MonoBundle/icudt.dat</key>
@@ -1422,6 +1444,13 @@
 			jxdtgqkMJEyuNwZZSFxELD/Kt3Zu2RhwpGEO2sOawo4=
 			</data>
 		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
+			</data>
+		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -1469,6 +1498,13 @@
 			<key>hash2</key>
 			<data>
 			06Dw48r2qORp1zVQzu1FMEqEQpN18taU/bp0JACYc40=
+			</data>
+		</dict>
+		<key>Resources/logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OkkgW7lnHMsgE93wMOVLwXwym++4OYG1n1RKekGA/A4=
 			</data>
 		</dict>
 	</dict>

@@ -9,6 +9,8 @@ global using app.Views;
 global using CommunityToolkit.Mvvm.Input;
 global using CommunityToolkit.Mvvm.ComponentModel;
 
+global using Microsoft.Maui.Controls;
+
 
 namespace app;
 

@@ -1,4 +1,5 @@
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/icudt.dat
+/Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/CommunityToolkit.Mvvm.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.Extensions.DependencyInjection.dll
@@ -9,6 +10,7 @@
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.Extensions.Options.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.Extensions.Primitives.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.Maui.Graphics.dll
+/Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/TinyMvvm.Maui.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/app.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.CSharp.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.VisualBasic.Core.dll

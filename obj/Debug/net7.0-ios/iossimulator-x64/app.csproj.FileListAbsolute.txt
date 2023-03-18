@@ -42,9 +42,6 @@
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.AssemblyInfoInputs.cache
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.AssemblyInfo.cs
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.csproj.CoreCompileInputs.cache
-/Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.dll
-/Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/refint/app.dll
-/Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.pdb
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/app.runtimeconfig.json
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/app.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/app.pdb
@@ -268,5 +265,8 @@
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/libxamarin-dotnet.dylib
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/XamlC.stamp
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.csproj.CopyComplete
+/Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.dll
+/Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/refint/app.dll
+/Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.pdb
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.genruntimeconfig.cache
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/ref/app.dll
