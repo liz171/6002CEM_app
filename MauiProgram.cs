@@ -10,7 +10,7 @@ global using CommunityToolkit.Mvvm.Input;
 global using CommunityToolkit.Mvvm.ComponentModel;
 
 global using Microsoft.Maui.Controls;
-
+global using app.Services;
 
 namespace app;
 
@@ -29,6 +29,9 @@ public static class MauiProgram {
 #endif
         builder.Services.AddTransient<LoginView>();
         builder.Services.AddTransient<LoginViewModel>();
+
+        builder.Services.AddSingleton<ISpotifyService, SpotifyService>();
+
         return builder.Build();
     }
 }

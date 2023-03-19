@@ -50,8 +50,26 @@ public partial class LoginView {
         }
     }
 
-    private void LoginWeb_Navigating(object sender, WebNavigatingEventArgs e) {
-        throw new NotImplementedException();
+    private async void LoginWeb_Navigating(object sender, WebNavigatingEventArgs e) {
+        //check if the URL is the redirect URL set up within the Spotify application online
+        //in order to avoid catching the login URL
+        if (!e.Url.Contains("redirect_uri") && e.Url.Contains("https://app/login")) {
+            var queryString = e.Url.Split("?").Last();
+            var parts = queryString.Split("&");
+
+            var parameters = parts.Select(x => x.Split("=")).ToDictionary(x => x.First(), x => x.Last());
+
+            var code = parameters["code"];
+            var returnState = parameters["state"];
+
+            //animating the login portal
+            if (returnState == state && !string.IsNullOrWhiteSpace(code)) {
+                _ = Task.Run(async () => await loginViewModel.HandleAuthCode(code));
+
+                await Login.TranslateTo(Login.X, this.Height, easing: Easing.Linear);
+                Login.IsVisible = false;
+            }
+        }
     }
 
 }

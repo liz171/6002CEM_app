@@ -61,9 +61,13 @@
 	  <None Remove="Views\" />
 	  <None Remove="ViewModels\" />
 	  <None Remove="Resources\Images\8bb41020a6234deba9e51a50ccabda32-removebg-preview.png" />
+	  <None Remove="Services\" />
+	  <None Remove="Models\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Views\" />
 	  <Folder Include="ViewModels\" />
+	  <Folder Include="Services\" />
+	  <Folder Include="Models\" />
 	</ItemGroup>
 </Project>
