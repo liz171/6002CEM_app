@@ -12,6 +12,14 @@
 		<data>
 		XeNJCWAjipe3f59TxQGWtSCBAQI=
 		</data>
+		<key>Resources/Images/icon.png</key>
+		<data>
+		IDsoHh36AQc5kIM7YtCMIOetXS0=
+		</data>
+		<key>Resources/Images/login_background.png</key>
+		<data>
+		IDsoHh36AQc5kIM7YtCMIOetXS0=
+		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
 		iEtuUGCV6JM3gxS/pO33swhmpp8=
@@ -44,6 +52,14 @@
 		<data>
 		AgG9OaBqGlLlSsDbnE/6b1bb0xU=
 		</data>
+		<key>Resources/icon.png</key>
+		<data>
+		IDsoHh36AQc5kIM7YtCMIOetXS0=
+		</data>
+		<key>Resources/login_background.png</key>
+		<data>
+		IDsoHh36AQc5kIM7YtCMIOetXS0=
+		</data>
 		<key>Resources/logo.png</key>
 		<data>
 		IDsoHh36AQc5kIM7YtCMIOetXS0=
@@ -51,6 +67,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MonoBundle/CommunityToolkit.Maui.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FH/8BgFW1DNCmzqVspFRNxXcFvphbTzso/NX8xaThHA=
+			</data>
+		</dict>
+		<key>MonoBundle/CommunityToolkit.Maui.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SHPkvQ38gQSPKM111K094pkEU+f+7Nl/aqJbe7Db+rk=
+			</data>
+		</dict>
 		<key>MonoBundle/CommunityToolkit.Mvvm.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1350,14 +1380,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H6QDeePoc+HBEHzHDkeLwm6CcbeIbrGV029lTn3DQus=
+			nOBwdsvGlmXgb/s1RJP3U2wAcVPyHMpPC9TlE4RuceQ=
 			</data>
 		</dict>
 		<key>MonoBundle/app.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtbxd6399cegsSyEyoYFKLdrgl80mNXPTVyJDY9C/GE=
+			yynptADWLg1J9h58Qwqu04AJRJah2uWgxk/bzwrntk0=
 			</data>
 		</dict>
 		<key>MonoBundle/icudt.dat</key>
@@ -1444,6 +1474,20 @@
 			jxdtgqkMJEyuNwZZSFxELD/Kt3Zu2RhwpGEO2sOawo4=
 			</data>
 		</dict>
+		<key>Resources/Images/icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OkkgW7lnHMsgE93wMOVLwXwym++4OYG1n1RKekGA/A4=
+			</data>
+		</dict>
+		<key>Resources/Images/login_background.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OkkgW7lnHMsgE93wMOVLwXwym++4OYG1n1RKekGA/A4=
+			</data>
+		</dict>
 		<key>Resources/MauiInfo.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1498,6 +1542,20 @@
 			<key>hash2</key>
 			<data>
 			06Dw48r2qORp1zVQzu1FMEqEQpN18taU/bp0JACYc40=
+			</data>
+		</dict>
+		<key>Resources/icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OkkgW7lnHMsgE93wMOVLwXwym++4OYG1n1RKekGA/A4=
+			</data>
+		</dict>
+		<key>Resources/login_background.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OkkgW7lnHMsgE93wMOVLwXwym++4OYG1n1RKekGA/A4=
 			</data>
 		</dict>
 		<key>Resources/logo.png</key>

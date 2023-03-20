@@ -1,4 +1,6 @@
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/icudt.dat
+/Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/CommunityToolkit.Maui.dll
+/Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/CommunityToolkit.Maui.Core.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/CommunityToolkit.Mvvm.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/publish/../app.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.Abstractions.dll

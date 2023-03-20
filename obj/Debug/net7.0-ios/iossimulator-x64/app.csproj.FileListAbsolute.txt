@@ -270,3 +270,7 @@
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.pdb
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/app.genruntimeconfig.cache
 /Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/ref/app.dll
+/Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/icon.png
+/Users/chronos/Projects/app/app/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/login_background.png
+/Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/CommunityToolkit.Maui.dll
+/Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/CommunityToolkit.Maui.Core.dll

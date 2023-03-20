@@ -5,9 +5,13 @@ using app.Models;
 namespace app.Services;
 
 public class SpotifyService : ISpotifyService {
+    private readonly ISecureStorageService secureStorageService;
     private string accessToken;
 
-    public SpotifyService() {
+    private HttpClient client;
+
+    public SpotifyService(ISecureStorageService secureStorageService) {
+        this.secureStorageService = secureStorageService;
     }
 
     public async Task<bool> Initialize(string authCode) {
@@ -32,7 +36,38 @@ public class SpotifyService : ISpotifyService {
         var result = JsonSerializer.Deserialize<AuthResult>(json);
 
         accessToken = result.AccessToken;
+
+        await secureStorageService.Save(nameof(result.AccessToken), result.AccessToken);
+        await secureStorageService.Save(nameof(result.RefreshToken), result.RefreshToken);
+
         return response.IsSuccessStatusCode;
+    }
+
+    public async Task<SearchResult> Search(string searchText, string types) {
+        var client = await GetClient();
+        var response = await client.GetAsync($"search?q={searchText}&type={types}");
+
+        var content = await response.Content.ReadAsStreamAsync();
+
+        //throw exception in case of unsuccessful response
+        response.EnsureSuccessStatusCode();
+
+        //deserialize search result, and then return it
+        var result = JsonSerializer.Deserialize<SearchResult>(content);
+
+        return result;
+    }
+
+    private async Task<HttpClient> GetClient() {
+        if (accessToken == null) {
+            accessToken = await secureStorageService.Get(nameof(AuthResult.AccessToken));
+        }
+        if (client == null) {
+            client = new HttpClient();
+            client.BaseAddress = new Uri("https://api.spotify.com/v1/");
+            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
+        }
+        return client;
     }
 }
 

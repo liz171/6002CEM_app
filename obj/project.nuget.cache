@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SHogVPYCV8PNi2pB15CaXv64oj0F9GSbUAX7atrNug/l9SsKhdWt9QE8XQdMsypmzN7TvcPfowbQs0/7NqLkRA==",
+  "dgSpecHash": "VGmFFP6Toce7OC8uQ621p/QRGhSeyppZacVO/y5F/NEYbLPLxkI8F6jdRQtqsQGAJIi1T5rm2iVLYByNPkftrA==",
   "success": true,
   "projectFilePath": "/Users/chronos/Projects/app/app/app.csproj",
   "expectedPackageFiles": [
+    "/Users/chronos/.nuget/packages/communitytoolkit.maui/5.0.0/communitytoolkit.maui.5.0.0.nupkg.sha512",
+    "/Users/chronos/.nuget/packages/communitytoolkit.maui.core/5.0.0/communitytoolkit.maui.core.5.0.0.nupkg.sha512",
     "/Users/chronos/.nuget/packages/communitytoolkit.mvvm/8.1.0/communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "/Users/chronos/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/chronos/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",

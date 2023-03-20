@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mvvm:TinyView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mvvm="clr-namespace:TinyMvvm;assembly=TinyMvvm.Maui"
+                xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+                xmlns:vm="clr-namespace:app.ViewModels"
+             x:Class="app.Views.HomeView"
+                x:DataType="vm:HomeViewModel"
+             Title="HomeView">
+    <ContentPage.Resources>
+        <toolkit:InvertedBoolConverter x:Key="InvertBool"/>
+    </ContentPage.Resources>
+    <Shell.TitleView>
+        <SearchBar IsVisible="{Binding IsSearching}"
+                   TextColor="{StaticResource AccentTextColor}"/>
+    </Shell.TitleView>
+    <VerticalStackLayout>
+        <!-- using MAUI community's Event-To-Command behavior
+        to bind search bar to "Focus" event, instead of command-->
+        <SearchBar IsVisible="{Binding IsSearching, Converter={StaticResource InvertBool}}">
+            <SearchBar.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="Focused"
+                                                Command="{Binding StartSearchCommand}"/>
+            </SearchBar.Behaviors>
+        </SearchBar>
+    </VerticalStackLayout>
+</mvvm:TinyView>

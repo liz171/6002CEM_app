@@ -7,9 +7,16 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Log In"
+        Title="Login"
         ContentTemplate="{DataTemplate views:LoginView}"
         Route="LoginPage" />
+
+    <TabBar Route="Main">
+        <ShellContent Title="Home"
+                      Icon="icon.png"
+                      Route="Home"
+                      ContentTemplate="{DataTemplate views:HomeView}"/>
+    </TabBar>
 
 </Shell>
 

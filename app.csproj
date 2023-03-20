@@ -55,6 +55,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="TinyMvvm.Maui" Version="4.1.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="5.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -63,11 +64,18 @@
 	  <None Remove="Resources\Images\8bb41020a6234deba9e51a50ccabda32-removebg-preview.png" />
 	  <None Remove="Services\" />
 	  <None Remove="Models\" />
+	  <None Remove="Resources\Images\login_background.png" />
+	  <None Remove="Resources\Images\icon.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Views\" />
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Services\" />
 	  <Folder Include="Models\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\login_background.png" />
+	  <BundleResource Include="Resources\Images\login_background.png" />
+	  <BundleResource Include="Resources\Images\icon.png" />
 	</ItemGroup>
 </Project>

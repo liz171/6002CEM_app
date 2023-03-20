@@ -9,7 +9,7 @@
              Title="Login">
     <!-- using Grid as the layout for the login page -->
     <Grid>
-        <Image Source="logo.png" Aspect="Fill"/>
+        <Image Source="login_background.png" Aspect="Fill"/>
         <Button Text="Log in with Spotify"
                 Command="{Binding OpenLoginCommand}"
                 VerticalOptions="Center"

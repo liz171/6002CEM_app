@@ -1,4 +1,6 @@
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/publish/../app.app/icudt.dat
+/Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/publish/../app.app/CommunityToolkit.Maui.dll
+/Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/publish/../app.app/CommunityToolkit.Maui.Core.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/publish/../app.app/CommunityToolkit.Mvvm.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/publish/../app.app/Microsoft.Extensions.Configuration.dll
 /Users/chronos/Projects/app/app/bin/Debug/net7.0-ios/iossimulator-x64/publish/../app.app/Microsoft.Extensions.Configuration.Abstractions.dll
