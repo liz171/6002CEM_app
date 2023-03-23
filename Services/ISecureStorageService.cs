@@ -1,10 +1,8 @@
 ﻿using System;
-namespace app.Services;
-
-public interface ISecureStorageService {
-
-    Task Save(string key, string value);
-    Task<bool> Contains(string key);
-    Task<string> Get(string key);
-
+namespace app.Services {
+    public interface ISecureStorageService {
+        Task Save(string key, string value);
+        Task<bool> Contains(string key);
+        Task<string> Get(string key);
+    }
 }

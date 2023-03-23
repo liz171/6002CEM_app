@@ -43,11 +43,21 @@ public class SpotifyService : ISpotifyService {
         return response.IsSuccessStatusCode;
     }
 
+    public async Task<bool> IsSignedIn() {
+        var hasToken = await secureStorageService.Contains(nameof(AuthResult.AccessToken));
+
+        if (hasToken) {
+            accessToken = await secureStorageService.Get(nameof(AuthResult.AccessToken));
+        }
+
+        return hasToken;
+    }
+
     public async Task<SearchResult> Search(string searchText, string types) {
         var client = await GetClient();
         var response = await client.GetAsync($"search?q={searchText}&type={types}");
 
-        var content = await response.Content.ReadAsStreamAsync();
+        var content = await response.Content.ReadAsStringAsync();
 
         //throw exception in case of unsuccessful response
         response.EnsureSuccessStatusCode();

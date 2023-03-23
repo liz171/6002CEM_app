@@ -20,10 +20,6 @@
 		<data>
 		IDsoHh36AQc5kIM7YtCMIOetXS0=
 		</data>
-		<key>Resources/MauiInfo.plist</key>
-		<data>
-		iEtuUGCV6JM3gxS/pO33swhmpp8=
-		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -57,10 +53,6 @@
 		IDsoHh36AQc5kIM7YtCMIOetXS0=
 		</data>
 		<key>Resources/login_background.png</key>
-		<data>
-		IDsoHh36AQc5kIM7YtCMIOetXS0=
-		</data>
-		<key>Resources/logo.png</key>
 		<data>
 		IDsoHh36AQc5kIM7YtCMIOetXS0=
 		</data>
@@ -1380,14 +1372,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nOBwdsvGlmXgb/s1RJP3U2wAcVPyHMpPC9TlE4RuceQ=
+			cwIpADhFd6S9ujTdUMZYrzgmatxZBMZ/8/2FArDZLxo=
 			</data>
 		</dict>
 		<key>MonoBundle/app.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yynptADWLg1J9h58Qwqu04AJRJah2uWgxk/bzwrntk0=
+			ib30GsInDoa63dVoBL3ye7W8I2ZETbfahv61fzG9t8I=
 			</data>
 		</dict>
 		<key>MonoBundle/icudt.dat</key>
@@ -1488,13 +1480,6 @@
 			OkkgW7lnHMsgE93wMOVLwXwym++4OYG1n1RKekGA/A4=
 			</data>
 		</dict>
-		<key>Resources/MauiInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
-			</data>
-		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -1552,13 +1537,6 @@
 			</data>
 		</dict>
 		<key>Resources/login_background.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OkkgW7lnHMsgE93wMOVLwXwym++4OYG1n1RKekGA/A4=
-			</data>
-		</dict>
-		<key>Resources/logo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
