@@ -1,7 +1,7 @@
 ﻿global using Microsoft.Extensions.Logging;
 global using System;
 
-global using TinyMvvm;
+//global using TinyMvvm;
 
 global using app.ViewModels;
 global using app.Views;
@@ -23,8 +23,7 @@ public static class MauiProgram {
     public static MauiApp CreateMauiApp() {
         var builder = MauiApp.CreateBuilder();
         builder
-            .UseMauiApp<App>()
-            .UseTinyMvvm()
+            .UseMauiApp<App>()            
             .UseMauiCommunityToolkit()
             .ConfigureFonts(fonts => {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -34,14 +33,7 @@ public static class MauiProgram {
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
-        builder.Services.AddTransient<LoginView>();
-        builder.Services.AddTransient<HomeView>();
-
-        builder.Services.AddTransient<LoginViewModel>();
-        builder.Services.AddTransient<HomeViewModel>();
-
-        builder.Services.AddSingleton<ISpotifyService, SpotifyService>();
-        builder.Services.AddSingleton<ISecureStorageService, SecureStorageService>();
+        
 
         //here we
         builder.Services.AddSingleton<HomePage>();

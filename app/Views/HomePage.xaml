@@ -57,7 +57,7 @@
                                                 Grid.Column="1"
                                                 Padding="10">
                                                 <Label FontSize="Large" Text="{Binding Name}" />
-                                                <Label Style="{StaticResource MediumLabel}" Text="{Binding BriefDescription}" />
+                                                <Label Text="{Binding BriefDescription}" />
                                             </VerticalStackLayout>
                                         </Grid>
 
