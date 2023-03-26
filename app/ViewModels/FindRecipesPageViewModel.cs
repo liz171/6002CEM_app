@@ -65,14 +65,11 @@ namespace app.ViewModels
         }
 
         [RelayCommand]
-        void AddtoMyRecipe(RecipeItem recipe)
+        async Task AddtoMyRecipe(RecipeItem recipe)
         {
             if(homePageViewModel!= null)
             {
-                if(homePageViewModel.MyRecipes.Where(item=>item.TypeName.Equals(recipe.TypeName)).Count() == 0)
-                {
-                    homePageViewModel.MyRecipes.Add(recipe);
-                }
+                await homePageViewModel.AddRecipe(recipe);
             }
         }
 

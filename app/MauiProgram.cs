@@ -33,9 +33,10 @@ public static class MauiProgram {
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
-        
+
 
         //here we
+        //builder.Services.AddSingleton<MyRecipeService>();
         builder.Services.AddSingleton<HomePage>();
         builder.Services.AddSingleton<HomePageViewModel>();
 
@@ -48,6 +49,8 @@ public static class MauiProgram {
 
         builder.Services.AddTransient<CreateMyRecipePage>();
         builder.Services.AddTransient<CreateMyRecipePageViewModel>();
+
+
 
         return builder.Build();
     }

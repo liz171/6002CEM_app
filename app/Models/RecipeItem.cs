@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace app.Models
     {
         public string TypeName { get; set; }
 
+        [PrimaryKey]
         public string FullName { get; set; }
 
         public string Image { get; set; }

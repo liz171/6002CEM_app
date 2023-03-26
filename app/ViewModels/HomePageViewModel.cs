@@ -11,6 +11,11 @@ namespace app.ViewModels
     public partial class HomePageViewModel : BaseViewModel
     {
         /// <summary>
+        /// service to save my recipes
+        /// </summary>
+        //MyRecipeService myRecipeService;
+
+        /// <summary>
         /// all my recipes
         /// </summary>
         public ObservableCollection<RecipeItem> MyRecipes { get; set; } = new ObservableCollection<RecipeItem>();
@@ -21,16 +26,28 @@ namespace app.ViewModels
            
         }
 
+        public async Task AddRecipe(RecipeItem recipe)
+        {
+            if(recipe!= null && MyRecipes.Where(item=>item.FullName.Equals(recipe.FullName)).Count() == 0)
+            {
+                MyRecipes.Add(recipe);
+                var service = await MyRecipeService.Instance;
+                await service.SaveRecipe(recipe);                
+            }
+        }
+
         /// <summary>
         /// delete this recipe
         /// </summary>
         /// <param name="recipe"></param>
         [RelayCommand]
-        void DeleteRecipe(RecipeItem recipe)
+        async Task DeleteRecipe(RecipeItem recipe)
         {
             if(recipe != null && MyRecipes.Contains(recipe))
             {
                 MyRecipes.Remove(recipe);
+                var service = await MyRecipeService.Instance;
+                await service.DeleteRecipe(recipe.FullName);                
             }
         }
 
