@@ -43,6 +43,9 @@ public static class MauiProgram {
         builder.Services.AddSingleton<ISpotifyService, SpotifyService>();
         builder.Services.AddSingleton<ISecureStorageService, SecureStorageService>();
 
+        builder.Services.AddSingleton<HomePage>();
+        builder.Services.AddSingleton<HomePageViewModel>();
+
         return builder.Build();
     }
 }

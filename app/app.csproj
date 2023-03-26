@@ -69,15 +69,17 @@
 	  <None Remove="Behaviors\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Views\" />
-	  <Folder Include="ViewModels\" />
 	  <Folder Include="Services\" />
-	  <Folder Include="Models\" />
 	  <Folder Include="Behaviors\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Images\login_background.png" />
 	  <BundleResource Include="Resources\Images\login_background.png" />
 	  <BundleResource Include="Resources\Images\icon.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiXaml Update="Views\HomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 </Project>

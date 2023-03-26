@@ -8,15 +8,8 @@
 
     <ShellContent
         Title="Login"
-        ContentTemplate="{DataTemplate views:LoginView}"
-        Route="LoginPage" />
-
-    <TabBar Route="Main">
-        <ShellContent
-        Title="Home"
-        Icon="hone.png"
-        ContentTemplate="{DataTemplate views:HomeView}"
-        Route="Home" />
-    </TabBar>
+        ContentTemplate="{DataTemplate views:HomePage}"
+        Route="HomePage" />
+   
 </Shell>
 
