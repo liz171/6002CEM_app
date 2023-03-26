@@ -17,6 +17,7 @@ namespace app.ViewModels
         {
             this.recipeService= recipeService;
             this.homePageViewModel= homePageViewModel;
+            GetAllRecipesAsync();
         }
 
         public ObservableCollection<RecipeItem> AllRecipes { get; set; } = new ObservableCollection<RecipeItem>();

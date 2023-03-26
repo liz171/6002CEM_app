@@ -26,5 +26,15 @@
         </Setter>
     </Style>
 
+    <Style TargetType="Label" x:Key="typenameLable">
+        <Setter Property="FontSize" Value="Medium"/>
+        <Setter Property="TextColor"  Value="MediumPurple"/>
+        <Setter Property="FontFamily" Value="Light"/>
+    </Style>
+    
+    <Style TargetType="Label" x:Key="fullnameLable">
+        <Setter Property="FontSize" Value="Caption"/>
+        <Setter Property="TextColor"  Value="Black"/>        
+    </Style>
 </ResourceDictionary>
 

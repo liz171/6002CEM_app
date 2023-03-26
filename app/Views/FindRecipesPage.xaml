@@ -35,12 +35,12 @@
                                                 <Image Grid.Row="0" Source="{Binding Image}" Aspect="Fill"   />
                                                 <Label Grid.Row="1" Text="{Binding TypeName}"></Label>
                                                 <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" />
-                                                <Grid Grid.Row="3" ColumnDefinitions="*,*">
+                                                <Grid Grid.Row="3" ColumnDefinitions="*,*,20">
                                                     <HorizontalStackLayout Grid.Column="0">
                                                         <Image Grid.Column="0" Source="time.svg" VerticalOptions="Center"></Image>
                                                         <Label Grid.Column="1" Text="{Binding CookTime}" VerticalOptions="Center"></Label>
                                                     </HorizontalStackLayout>
-                                                    <ImageButton Grid.Column="1" Source="add.svg" 
+                                                    <ImageButton Grid.Column="1" Source="add.svg" HorizontalOptions="End"
                                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}},Path=AddtoMyRecipeCommand}"
                                                                 CommandParameter="{Binding .}"></ImageButton>
                                                     </Grid>                                                

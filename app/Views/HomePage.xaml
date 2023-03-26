@@ -52,11 +52,11 @@
                                         </Frame.GestureRecognizers>
                                         <Grid Padding="0" RowDefinitions="Auto,Auto,*,30">
                                             <Image Grid.Row="0" Source="{Binding Image}" Aspect="Fill"   />
-                                            <Label Grid.Row="1" Text="{Binding TypeName}"></Label>
-                                            <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" />
+                                            <Label Grid.Row="1" Text="{Binding TypeName}" Style="{StaticResource typenameLable}"></Label>
+                                            <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" Style="{StaticResource fullnameLable}" />
                                             <HorizontalStackLayout Grid.Row="3">
                                                 <Image Grid.Column="0" Source="time.svg"></Image>
-                                                <Label Grid.Column="1" Text="{Binding CookTime}"></Label>
+                                                <Label Grid.Column="1" Text="{Binding CookTime}" VerticalOptions="Center"></Label>
                                             </HorizontalStackLayout>                                            
                                         </Grid>
                                     </Frame>
