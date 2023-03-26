@@ -25,25 +25,49 @@
                     <DataTemplate x:DataType="model:RecipeItem">
                         <Grid Padding="10" HorizontalOptions="Fill">
                             <Frame HeightRequest="125" >
-                                <!--<Frame.GestureRecognizers>
-                                    <TapGestureRecognizer 
-                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MonkeysViewModel}}, Path=GoToDetailsCommand}"
+                                <SwipeView>
+                                    <!--left items-->
+                                    <!--<SwipeView.LeftItems>
+                                        <SwipeItems
+                                        SwipeBehaviorOnInvoked="RemainOpen">
+                                            <SwipeItem
+                                            IconImageSource="delete" 
+                                            BackgroundColor="{Binding Color, Converter={StaticResource ValueToColorConverter}}"/>
+                                        </SwipeItems>
+                                    </SwipeView.LeftItems>-->
+                                    <!--left items-->
+                                    <SwipeView.RightItems>
+                                        <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                                            <SwipeItem 
+                                                IconImageSource="delete.svg"                                                
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomePageViewModel}},Path=DeleteRecipeCommand}"
                                                 CommandParameter="{Binding .}"/>
-                                </Frame.GestureRecognizers>-->
-                                <Grid Padding="0" ColumnDefinitions="125,*">
-                                    <Image
+                                        </SwipeItems>
+                                    </SwipeView.RightItems>
+
+                                    <Frame>
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer 
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomePageViewModel}}, Path=GoToDetailsCommand}"
+                                                CommandParameter="{Binding .}"/>
+                                        </Frame.GestureRecognizers>
+                                        <Grid Padding="0" ColumnDefinitions="125,*">
+                                            <Image
                                                 Aspect="AspectFill"
                                                 HeightRequest="125"
                                                 Source="{Binding Image}"
                                                 WidthRequest="125" />
-                                    <VerticalStackLayout
+                                            <VerticalStackLayout
                                                 VerticalOptions="Center"
                                                 Grid.Column="1"
                                                 Padding="10">
-                                        <Label Style="{StaticResource LargeLabel}" Text="{Binding Name}" />
-                                        <Label Style="{StaticResource MediumLabel}" Text="{Binding BriefDescription}" />
-                                    </VerticalStackLayout>
-                                </Grid>
+                                                <Label Style="{StaticResource LargeLabel}" Text="{Binding Name}" />
+                                                <Label Style="{StaticResource MediumLabel}" Text="{Binding BriefDescription}" />
+                                            </VerticalStackLayout>
+                                        </Grid>
+
+                                    </Frame>
+                                </SwipeView>
                             </Frame>
                         </Grid>
                     </DataTemplate>
@@ -52,6 +76,5 @@
 
         </ContentView>
 
-        <Button Text="add recipe" Grid.Row="1" HeightRequest="50" WidthRequest="100" Command="{Binding AddRecipeCommand}"></Button>
     </Grid>
 </ContentPage>
