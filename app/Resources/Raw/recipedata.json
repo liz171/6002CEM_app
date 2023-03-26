@@ -4,7 +4,27 @@
     "FullName": "Spring Minestrone Soup",
     "Image": "https://www.simplyrecipes.com/thmb/f6d1zEy0DLR74pN3sld6R2WbyTE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__05__spring-minestrone-horiz-a-16001-44cb9775fc284fd8a37b3773550b3731.jpg",
     "CookTime": "35 min",
-    "BriefDescription": "Spring Minestrone! A springtime version of the classic Italian minestrone, with peas, new potatoes, artichoke hearts, asparagus and spring greens."
+    "BriefDescription": "Spring Minestrone! A springtime version of the classic Italian minestrone, with peas, new potatoes, artichoke hearts, asparagus and spring greens.",
+    "Steps": [
+      {
+        "Index": 1,
+        "FirstStep": "Prep green onions, green garlic, potatoes, artichoke hearts",
+        "SecondStep": "Chop the green onions and green garlic and separate the white and light green parts from the green tops. If you are using regular garlic cloves, put them with the white parts of the green onions.",
+        "Image": "https://www.simplyrecipes.com/thmb/59CAsY7aiwgNgP4sFTZeACOE2OU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__05__07162222__spring-minestrone-method-1-f3c7c59a283b434e8eb5b7ac82abcc83.jpg"
+      },
+      {
+        "Index": 2,
+        "FirstStep": "Sauté white parts of green onions and garlic, add potatoes",
+        "SecondStep": "In a large pot set over medium-high heat, warm the olive oil for 1 minute. Add the white parts of the green onions as well as the garlic and sauté for 1 minute.",
+        "Image": "https://www.simplyrecipes.com/thmb/RlfQRqfXT4fOYM7UILz-WlMUsY0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__05__07162220__spring-minestrone-method-3-f2c704d31d8647d7b3627772c2a73e8d.jpg"
+      },
+      {
+        "Index": 3,
+        "FirstStep": "Add tomatoes, stock, salt, then simmer",
+        "SecondStep": "Add the diced tomatoes with their liquid and the quart of vegetable or chicken stock.",
+        "Image": "https://www.simplyrecipes.com/thmb/9FMkd86-paEeFtZGsRqGsr3sHH8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__05__07162218__spring-minestrone-method-4-4c2859525c87463694c22b564ba4ff8e.jpg"
+      }
+    ]
   },
   {
     "TypeName": "YELLOW CAKE",

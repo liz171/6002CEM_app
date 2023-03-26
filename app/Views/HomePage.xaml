@@ -14,7 +14,7 @@
         <ContentView Grid.Row="0">
             <CollectionView ItemsSource="{Binding MyRecipes}" >
                 <CollectionView.EmptyView>
-                    <StackLayout Padding="100">
+                    <StackLayout>
                         <Label Text="Empty" HorizontalOptions="Center" VerticalOptions="Center"></Label>
                     </StackLayout>
                 </CollectionView.EmptyView>

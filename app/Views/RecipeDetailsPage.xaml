@@ -29,6 +29,37 @@
                    Style="{StaticResource birefLabel}"
                    Margin="20,0"
                    FontSize="16"/>
+            <ContentView >
+                <CollectionView ItemsSource="{Binding CurrentRecipe.Steps}" >
+                    <CollectionView.EmptyView>
+                        <StackLayout >
+                            <Label Text="Empty" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                        </StackLayout>
+                    </CollectionView.EmptyView>
+                    <CollectionView.ItemsLayout >
+                        <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:StepModel">
+                            <Grid Padding="5" HorizontalOptions="Fill">
+                                <Frame BorderColor="Blue"  CornerRadius="5">                                    
+                                    <Grid Padding="0" RowDefinitions="Auto,Auto,*">
+                                        <Grid Grid.Row="0" ColumnDefinitions="Auto,*">
+                                            <Label Grid.Column="0" Text="{Binding Index}" Style="{StaticResource fullnameLable}" VerticalOptions="Start" Margin="3"></Label>
+                                            <Label Grid.Column="1" Text="{Binding FirstStep}" Style="{StaticResource fullnameLable}" VerticalOptions="Center"></Label>
+                                        </Grid>
+                                        
+                                        <Label Grid.Row="1" Text="{Binding SecondStep}" Style="{StaticResource typenameLable}"></Label>
+                                        <Image Grid.Row="2" Source="{Binding Image}" Aspect="Fill"   />
+                                    </Grid>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </ContentView>
         </VerticalStackLayout>
+        
     </ScrollView>
 </ContentPage>

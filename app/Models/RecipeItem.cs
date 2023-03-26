@@ -23,7 +23,7 @@ namespace app.Models
 
         public string BriefDescription { get; set; }
 
-        //public string DetailsInformation { get; set; }
+        public List<StepModel> Steps { get; set; } = new List<StepModel>();
 
        
     }
