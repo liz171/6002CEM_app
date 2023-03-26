@@ -58,7 +58,14 @@ namespace app.ViewModels
             });
         }
 
-
-
+        /// <summary>
+        /// go to find all the recipes
+        /// </summary>
+        /// <returns></returns>
+        [RelayCommand]
+        async Task GoToFindRecipes()
+        {
+            await Shell.Current.GoToAsync(nameof(FindRecipesPage), true);
+        }
     }
 }

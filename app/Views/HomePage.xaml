@@ -23,8 +23,8 @@
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:RecipeItem">
-                        <Grid Padding="10" HorizontalOptions="Fill">
-                            <Frame HeightRequest="125" >
+                        <Grid Padding="0" HorizontalOptions="Fill">
+                            <Frame HeightRequest="250" >
                                 <SwipeView>
                                     <!--left items-->
                                     <!--<SwipeView.LeftItems>
@@ -37,31 +37,26 @@
                                     </SwipeView.LeftItems>-->
                                     <!--left items-->
                                     <SwipeView.RightItems>
-                                        <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                                        <SwipeItems SwipeBehaviorOnInvoked="Auto">
                                             <SwipeItem 
                                                 IconImageSource="delete.svg"                                                
                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomePageViewModel}},Path=DeleteRecipeCommand}"
                                                 CommandParameter="{Binding .}"/>
                                         </SwipeItems>
                                     </SwipeView.RightItems>
-
                                     <Frame>
                                         <Frame.GestureRecognizers>
                                             <TapGestureRecognizer 
                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomePageViewModel}}, Path=GoToDetailsCommand}"
                                                 CommandParameter="{Binding .}"/>
                                         </Frame.GestureRecognizers>
-                                        <Grid Padding="0" ColumnDefinitions="125,*">
-                                            <Image
-                                                Aspect="AspectFill"
-                                                HeightRequest="125"
-                                                Source="{Binding Image}"
-                                                WidthRequest="125" />
+                                        <Grid Padding="0" ColumnDefinitions="*,160">
+                                            <Image Aspect="Fill" Source="{Binding Image}"   />                                                
                                             <VerticalStackLayout
                                                 VerticalOptions="Center"
                                                 Grid.Column="1"
                                                 Padding="10">
-                                                <Label Style="{StaticResource LargeLabel}" Text="{Binding Name}" />
+                                                <Label FontSize="Large" Text="{Binding Name}" />
                                                 <Label Style="{StaticResource MediumLabel}" Text="{Binding BriefDescription}" />
                                             </VerticalStackLayout>
                                         </Grid>
@@ -75,6 +70,18 @@
             </CollectionView>
 
         </ContentView>
+        <Grid Grid.Row="1">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Text="Find Recipes" Command="{Binding GoToFindRecipesCommand}" Margin="10"></Button>
+                <Button Grid.Column="1" Text="Home" Margin="10"></Button>
+                <Button Grid.Column="2" Text="Account" Margin="10"></Button>
+            </Grid>
+        </Grid>
 
     </Grid>
 </ContentPage>
