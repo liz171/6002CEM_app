@@ -1,15 +1,17 @@
 ﻿[
   {
-    "TypeName": "Spring Soup",
+    "TypeName": "SPRING SOUP",
     "FullName": "Spring Minestrone Soup",
     "Image": "https://www.simplyrecipes.com/thmb/f6d1zEy0DLR74pN3sld6R2WbyTE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__05__spring-minestrone-horiz-a-16001-44cb9775fc284fd8a37b3773550b3731.jpg",
-    "CookTime": "35 min"
+    "CookTime": "35 min",
+    "BriefDescription": "Spring Minestrone! A springtime version of the classic Italian minestrone, with peas, new potatoes, artichoke hearts, asparagus and spring greens."
   },
   {
-    "TypeName": "Yellow Cake",
+    "TypeName": "YELLOW CAKE",
     "FullName": "Coconut Cake with Lemon Curd and Vanilla Buttercream",
     "Image": "https://www.simplyrecipes.com/thmb/mlClnRU9eIg5CvhZ-i6ja6wwtzM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__12__2016-12-14-Coconut-Cake-14-29ca1a404a834158bcd0943465825f1c.jpg",
-    "CookTime": "1 h"
+    "CookTime": "1 h",
+    "BriefDescription": "This coconut cake is a total showstopper at any gathering. With lemon curd filling and vanilla buttercream frosting. Make-ahead options; keeps well."
   }
   
 ]

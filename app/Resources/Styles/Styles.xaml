@@ -33,8 +33,13 @@
     </Style>
     
     <Style TargetType="Label" x:Key="fullnameLable">
-        <Setter Property="FontSize" Value="Caption"/>
+        <Setter Property="FontSize" Value="Large"/>
         <Setter Property="TextColor"  Value="Black"/>        
+    </Style>
+
+    <Style TargetType="Label" x:Key="birefLabel">
+        <Setter Property="FontSize" Value="Medium"/>
+        <Setter Property="TextColor"  Value="Black"/>
     </Style>
 </ResourceDictionary>
 

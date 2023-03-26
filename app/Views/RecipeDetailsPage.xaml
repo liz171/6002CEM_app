@@ -9,25 +9,24 @@
     <ScrollView>
         <VerticalStackLayout Spacing="10">
             <Image Source="{Binding CurrentRecipe.Image}" HeightRequest="300" Aspect="AspectFill"/>
-            <Label Text="{Binding CurrentRecipe.TypeName}"
-                   FontFamily="NotoSerifBold"
-                   FontSize="26"
-                   Margin="20,10"/>
-            <StackLayout Orientation="Horizontal" Margin="20,0" Spacing="10">
-                <Frame WidthRequest="32" HeightRequest="32" Padding="0" CornerRadius="16"
-                       BackgroundColor="{StaticResource Gray200}" BorderColor="Transparent">
-                    <Label Text="Soup yes"
-                           FontFamily="Material"
-                           FontSize="28"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center"
-                           TextColor="White"/>
-                </Frame>
-                <Label Text="2023-03-26"
-                       VerticalOptions="Center"
-                       TextColor="{StaticResource Gray400}"/>
-            </StackLayout>
-            <Label Text="{Binding CurrentRecipe.FullName}"
+            <Grid HorizontalOptions="Fill" HeightRequest="60" ColumnDefinitions="*,Auto,20">
+                <Label Grid.Column="0"
+                    Text="{Binding CurrentRecipe.TypeName}"
+                    FontFamily="NotoSerifBold"
+                    FontSize="26"
+                    Margin="20,10"/>
+                <HorizontalStackLayout Grid.Column="1" >
+                    <Image Source="time.svg" Aspect="Fill" HeightRequest="30" WidthRequest="30"></Image>
+                    <Label Text="{Binding CurrentRecipe.CookTime}" VerticalOptions="Center"></Label>
+                </HorizontalStackLayout>
+            </Grid>
+
+            <Label Text="{Binding CurrentRecipe.FullName}" 
+                   Style="{StaticResource fullnameLable}" 
+                   Margin="20,0" VerticalOptions="Center"/>                          
+                           
+            <Label Text="{Binding CurrentRecipe.BriefDescription}"
+                   Style="{StaticResource birefLabel}"
                    Margin="20,0"
                    FontSize="16"/>
         </VerticalStackLayout>
