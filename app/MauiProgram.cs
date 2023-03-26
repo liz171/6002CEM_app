@@ -43,8 +43,12 @@ public static class MauiProgram {
         builder.Services.AddSingleton<ISpotifyService, SpotifyService>();
         builder.Services.AddSingleton<ISecureStorageService, SecureStorageService>();
 
+        //here we
         builder.Services.AddSingleton<HomePage>();
         builder.Services.AddSingleton<HomePageViewModel>();
+
+        builder.Services.AddTransient<RecipeDetailsPage>();
+        builder.Services.AddTransient<RecipeDetailsPageViewModel>();
 
         return builder.Build();
     }

@@ -18,5 +18,7 @@ namespace app.Models
         public bool Favorite { get; set; }
 
         public string BriefDescription { get; set; }
+
+        public string DetailsInformation { get; set; }
     }
 }
