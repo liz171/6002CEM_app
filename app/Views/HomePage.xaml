@@ -15,7 +15,9 @@
             <CollectionView ItemsSource="{Binding MyRecipes}" >
                 <CollectionView.EmptyView>
                     <StackLayout>
-                        <Label Text="Empty" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                        <Image Source="https://www.simplyrecipes.com/thmb/oI6rADk_spVK6gZ7W-gBOaBraxk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SimplyRecipes_LemonCheesecakeBars_LEAD-4-c17a149c1e374564a98916e68aa5d268.jpg" Aspect="AspectFill"></Image>
+                        <Label Text="You havn't collect any recipe" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"></Label>
+                        <Label Text="Click Find and find your favorite recipe!" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"></Label>
                     </StackLayout>
                 </CollectionView.EmptyView>
                 <CollectionView.ItemsLayout >

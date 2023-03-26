@@ -22,6 +22,7 @@ namespace app.Models
         //public bool Favorite { get; set; }
 
         public string BriefDescription { get; set; }
+        
 
         public List<StepModel> Steps { get; set; } = new List<StepModel>();
 

@@ -10,50 +10,53 @@
         <RefreshView 
             Command="{Binding GetAllRecipesCommand}"
             IsRefreshing="{Binding IsRefreshing}">
-            <ContentView Grid.Row="0">
-                <CollectionView ItemsSource="{Binding AllRecipes}" >
-                    <CollectionView.EmptyView>
-                        <StackLayout Padding="100">
-                            <Label Text="Empty" HorizontalOptions="Center" VerticalOptions="Center"></Label>
-                        </StackLayout>
-                    </CollectionView.EmptyView>
-                    <CollectionView.ItemsLayout >
-                        <LinearItemsLayout Orientation="Vertical"/>
-                    </CollectionView.ItemsLayout>
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate x:DataType="model:RecipeItem">
-                            <Grid Padding="10" HorizontalOptions="Fill">
-                                <Frame HeightRequest="460" >
-                                    <SwipeView>
-                                        <Frame BorderColor="Purple" CornerRadius="5">
-                                            <Frame.GestureRecognizers>
-                                                <TapGestureRecognizer 
+            <Grid RowDefinitions="*,60">
+                <ContentView Grid.Row="0">
+                    <CollectionView ItemsSource="{Binding AllRecipes}" >
+                        <CollectionView.EmptyView>
+                            <StackLayout Padding="100">
+                                <Label Text="Empty" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                            </StackLayout>
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemsLayout >
+                            <LinearItemsLayout Orientation="Vertical"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="model:RecipeItem">
+                                <Grid Padding="10" HorizontalOptions="Fill">
+                                    <Frame HeightRequest="460" >
+                                        <SwipeView>
+                                            <Frame BorderColor="Purple" CornerRadius="5">
+                                                <Frame.GestureRecognizers>
+                                                    <TapGestureRecognizer 
                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}}, Path=GoToDetailsCommand}"
                                                 CommandParameter="{Binding .}"/>
-                                            </Frame.GestureRecognizers>
-                                            <Grid Padding="0" RowDefinitions="Auto,Auto,*,30">
-                                                <Image Grid.Row="0" Source="{Binding Image}" Aspect="Fill"   />
-                                                <Label Grid.Row="1" Text="{Binding TypeName}"></Label>
-                                                <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" />
-                                                <Grid Grid.Row="3" ColumnDefinitions="*,*,20">
-                                                    <HorizontalStackLayout Grid.Column="0">
-                                                        <Image Grid.Column="0" Source="time.svg" VerticalOptions="Center"></Image>
-                                                        <Label Grid.Column="1" Text="{Binding CookTime}" VerticalOptions="Center"></Label>
-                                                    </HorizontalStackLayout>
-                                                    <ImageButton Grid.Column="1" Source="add.svg" HorizontalOptions="End"
+                                                </Frame.GestureRecognizers>
+                                                <Grid Padding="0" RowDefinitions="Auto,Auto,*,30">
+                                                    <Image Grid.Row="0" Source="{Binding Image}" Aspect="Fill"   />
+                                                    <Label Grid.Row="1" Text="{Binding TypeName}"></Label>
+                                                    <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" />
+                                                    <Grid Grid.Row="3" ColumnDefinitions="*,*,20">
+                                                        <HorizontalStackLayout Grid.Column="0">
+                                                            <Image Grid.Column="0" Source="time.svg" VerticalOptions="Center"></Image>
+                                                            <Label Grid.Column="1" Text="{Binding CookTime}" VerticalOptions="Center"></Label>
+                                                        </HorizontalStackLayout>
+                                                        <ImageButton Grid.Column="1" Source="add.svg" HorizontalOptions="End"
                                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}},Path=AddtoMyRecipeCommand}"
                                                                 CommandParameter="{Binding .}"></ImageButton>
-                                                    </Grid>                                                
-                                            </Grid>
-                                        </Frame>
-                                    </SwipeView>
-                                </Frame>
-                            </Grid>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
+                                                    </Grid>
+                                                </Grid>
+                                            </Frame>
+                                        </SwipeView>
+                                    </Frame>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </ContentView>
 
-            </ContentView>
+                <Button Grid.Row="1" Text="Get Recipes" Command="{Binding GetAllRecipesCommand}" WidthRequest="200" Margin="10" ></Button>
+            </Grid>
 
         </RefreshView>
         <ActivityIndicator            
