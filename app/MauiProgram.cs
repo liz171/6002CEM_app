@@ -54,6 +54,9 @@ public static class MauiProgram {
         builder.Services.AddSingleton<FindRecipesPage>();
         builder.Services.AddSingleton<FindRecipesPageViewModel>();
 
+        builder.Services.AddTransient<CreateMyRecipePage>();
+        builder.Services.AddTransient<CreateMyRecipePageViewModel>();
+
         return builder.Build();
     }
 }

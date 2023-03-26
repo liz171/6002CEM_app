@@ -67,5 +67,11 @@ namespace app.ViewModels
         {
             await Shell.Current.GoToAsync(nameof(FindRecipesPage), true);
         }
+
+        [RelayCommand]
+        async Task GoToCreateMyRecipe()
+        {
+            await Shell.Current.GoToAsync(nameof(CreateMyRecipePage), true);
+        }
     }
 }

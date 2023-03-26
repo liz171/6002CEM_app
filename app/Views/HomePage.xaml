@@ -78,7 +78,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Button Grid.Column="0" Text="Find Recipes" Command="{Binding GoToFindRecipesCommand}" Margin="10"></Button>
-                <Button Grid.Column="1" Text="Home" Margin="10"></Button>
+                <Button Grid.Column="1" Text="Home" Command="{Binding GoToCreateMyRecipeCommand}" Margin="10"></Button>
                 <Button Grid.Column="2" Text="Account" Margin="10"></Button>
             </Grid>
         </Grid>
