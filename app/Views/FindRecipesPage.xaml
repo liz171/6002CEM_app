@@ -23,38 +23,28 @@
                     <CollectionView.ItemTemplate>
                         <DataTemplate x:DataType="model:RecipeItem">
                             <Grid Padding="10" HorizontalOptions="Fill">
-                                <Frame HeightRequest="125" >
+                                <Frame HeightRequest="460" >
                                     <SwipeView>
-                                        <SwipeView.RightItems>
-                                            <SwipeItems SwipeBehaviorOnInvoked="Auto">
-                                                <SwipeItem 
-                                                IconImageSource="add.svg"                                                
-                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}},Path=AddtoMyRecipeCommand}"
-                                                CommandParameter="{Binding .}"/>
-                                            </SwipeItems>
-                                        </SwipeView.RightItems>
-
-                                        <Frame>
+                                        <Frame BorderColor="Purple" CornerRadius="5">
                                             <Frame.GestureRecognizers>
                                                 <TapGestureRecognizer 
                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}}, Path=GoToDetailsCommand}"
                                                 CommandParameter="{Binding .}"/>
                                             </Frame.GestureRecognizers>
-                                            <Grid Padding="0" ColumnDefinitions="125,*">
-                                                <Image
-                                                Aspect="AspectFill"
-                                                HeightRequest="125"
-                                                Source="{Binding Image}"
-                                                WidthRequest="125" />
-                                                <VerticalStackLayout
-                                                VerticalOptions="Center"
-                                                Grid.Column="1"
-                                                Padding="10">
-                                                    <Label Text="{Binding Name}" />
-                                                    <Label Text="{Binding BriefDescription}" />
-                                                </VerticalStackLayout>
+                                            <Grid Padding="0" RowDefinitions="Auto,Auto,*,30">
+                                                <Image Grid.Row="0" Source="{Binding Image}" Aspect="Fill"   />
+                                                <Label Grid.Row="1" Text="{Binding TypeName}"></Label>
+                                                <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" />
+                                                <Grid Grid.Row="3" ColumnDefinitions="*,*">
+                                                    <HorizontalStackLayout Grid.Column="0">
+                                                        <Image Grid.Column="0" Source="time.svg" VerticalOptions="Center"></Image>
+                                                        <Label Grid.Column="1" Text="{Binding CookTime}" VerticalOptions="Center"></Label>
+                                                    </HorizontalStackLayout>
+                                                    <ImageButton Grid.Column="1" Source="add.svg" 
+                                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}},Path=AddtoMyRecipeCommand}"
+                                                                CommandParameter="{Binding .}"></ImageButton>
+                                                    </Grid>                                                
                                             </Grid>
-
                                         </Frame>
                                     </SwipeView>
                                 </Frame>

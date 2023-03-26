@@ -10,7 +10,7 @@ namespace app.ViewModels
     /// <summary>
     /// this is the viewmodel for recipe detials page
     /// </summary>
-    [QueryProperty(nameof(CurrentRecipe), "CurrentRecipe")]
+    [QueryProperty("CurrentRecipe", "CurrentRecipe")]
     public partial class RecipeDetailsPageViewModel : BaseViewModel
     {
 

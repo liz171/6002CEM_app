@@ -44,7 +44,7 @@ namespace app.ViewModels
 
                 foreach (var recipe in recipelist)
                 {
-                    if(AllRecipes.Where(item=>item.Name.Equals(recipe.Name)).Count() == 0)
+                    if(AllRecipes.Where(item=>item.TypeName.Equals(recipe.TypeName)).Count() == 0)
                     {
                         AllRecipes.Add(recipe);
                     }
@@ -69,7 +69,7 @@ namespace app.ViewModels
         {
             if(homePageViewModel!= null)
             {
-                if(homePageViewModel.MyRecipes.Where(item=>item.Name.Equals(recipe.Name)).Count() == 0)
+                if(homePageViewModel.MyRecipes.Where(item=>item.TypeName.Equals(recipe.TypeName)).Count() == 0)
                 {
                     homePageViewModel.MyRecipes.Add(recipe);
                 }

@@ -11,14 +11,20 @@ namespace app.Models
     /// </summary>
     public class RecipeItem
     {
-        public string Name { get; set; }
+        public string TypeName { get; set; }
+
+        public string FullName { get; set; }
 
         public string Image { get; set; }
 
-        public bool Favorite { get; set; }
+        public string CookTime { get; set; }
 
-        public string BriefDescription { get; set; }
+        //public bool Favorite { get; set; }
 
-        public string DetailsInformation { get; set; }
+        //public string BriefDescription { get; set; }
+
+        //public string DetailsInformation { get; set; }
+
+       
     }
 }

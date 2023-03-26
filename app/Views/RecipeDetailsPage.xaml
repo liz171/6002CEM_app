@@ -9,7 +9,7 @@
     <ScrollView>
         <VerticalStackLayout Spacing="10">
             <Image Source="{Binding CurrentRecipe.Image}" HeightRequest="300" Aspect="AspectFill"/>
-            <Label Text="{Binding CurrentRecipe.Name}"
+            <Label Text="{Binding CurrentRecipe.TypeName}"
                    FontFamily="NotoSerifBold"
                    FontSize="26"
                    Margin="20,10"/>
@@ -27,7 +27,7 @@
                        VerticalOptions="Center"
                        TextColor="{StaticResource Gray400}"/>
             </StackLayout>
-            <Label Text="{Binding CurrentRecipe.DetailsInformation}"
+            <Label Text="{Binding CurrentRecipe.FullName}"
                    Margin="20,0"
                    FontSize="16"/>
         </VerticalStackLayout>

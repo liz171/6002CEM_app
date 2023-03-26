@@ -24,7 +24,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:RecipeItem">
                         <Grid Padding="0" HorizontalOptions="Fill">
-                            <Frame HeightRequest="250" >
+                            <Frame HeightRequest="460" >
                                 <SwipeView>
                                     <!--left items-->
                                     <!--<SwipeView.LeftItems>
@@ -44,23 +44,21 @@
                                                 CommandParameter="{Binding .}"/>
                                         </SwipeItems>
                                     </SwipeView.RightItems>
-                                    <Frame>
+                                    <Frame BorderColor="Purple" CornerRadius="5">
                                         <Frame.GestureRecognizers>
                                             <TapGestureRecognizer 
                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomePageViewModel}}, Path=GoToDetailsCommand}"
                                                 CommandParameter="{Binding .}"/>
                                         </Frame.GestureRecognizers>
-                                        <Grid Padding="0" ColumnDefinitions="*,160">
-                                            <Image Aspect="Fill" Source="{Binding Image}"   />                                                
-                                            <VerticalStackLayout
-                                                VerticalOptions="Center"
-                                                Grid.Column="1"
-                                                Padding="10">
-                                                <Label FontSize="Large" Text="{Binding Name}" />
-                                                <Label Text="{Binding BriefDescription}" />
-                                            </VerticalStackLayout>
+                                        <Grid Padding="0" RowDefinitions="Auto,Auto,*,30">
+                                            <Image Grid.Row="0" Source="{Binding Image}" Aspect="Fill"   />
+                                            <Label Grid.Row="1" Text="{Binding TypeName}"></Label>
+                                            <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" />
+                                            <HorizontalStackLayout Grid.Row="3">
+                                                <Image Grid.Column="0" Source="time.svg"></Image>
+                                                <Label Grid.Column="1" Text="{Binding CookTime}"></Label>
+                                            </HorizontalStackLayout>                                            
                                         </Grid>
-
                                     </Frame>
                                 </SwipeView>
                             </Frame>

@@ -20,11 +20,10 @@ namespace app.ViewModels
         {
             MyRecipes.Add(new RecipeItem()
             {
-                Name = "Spring Minestrone Soup",
+                TypeName = "Spring Minestrone Soup",
+                FullName = "this is a soup",
                 Image = "https://www.simplyrecipes.com/thmb/J0sEfuGpNA8_Q-_ju5k-KQDJagM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__05__spring-minestrone-vertical-b-1600-add4ea06b70d4a409b55f3dbb5f5f0ea.jpg",
-                Favorite = false,
-                BriefDescription = "this is a soup",
-                DetailsInformation= "Minestrone is one of my favorite soups, and it is infinitely malleable with the seasons. This version celebrates springtime, when fresh, new vegetables begin to show up at the market."
+                CookTime="35 min"
             });
         }
 

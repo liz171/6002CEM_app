@@ -29,7 +29,7 @@ namespace app.ViewModels
         {
             if (homePageViewModel != null)
             {
-                if (homePageViewModel.MyRecipes.Where(item => item.Name.Equals(NewRecipe.Name)).Count() == 0)
+                if (homePageViewModel.MyRecipes.Where(item => item.TypeName.Equals(NewRecipe.TypeName)).Count() == 0)
                 {
                     homePageViewModel.MyRecipes.Add(NewRecipe);
                 }
