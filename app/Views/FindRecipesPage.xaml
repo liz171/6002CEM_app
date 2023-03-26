@@ -5,7 +5,7 @@
              xmlns:viewmodel="clr-namespace:app.ViewModels"
              xmlns:model="clr-namespace:app.Models"
              x:DataType="viewmodel:FindRecipesPageViewModel"
-             Title="FindRecipesPage">
+             Title="Find Recipes">
     <Grid>
         <RefreshView 
             Command="{Binding GetAllRecipesCommand}"
