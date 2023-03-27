@@ -3,7 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Reflection.PortableExecutable;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace app.ViewModels
@@ -23,7 +25,31 @@ namespace app.ViewModels
 
         public HomePageViewModel()
         {
-           
+            string targetFile = System.IO.Path.Combine(FileSystem.Current.AppDataDirectory, "my recipe.json");
+            if(File.Exists(targetFile))
+            {
+                using var stream = File.OpenRead(targetFile);
+                using var reader = new StreamReader(stream);
+                var contents = reader.ReadToEnd();
+                var recipeList = JsonSerializer.Deserialize<List<RecipeItem>>(contents);
+                if (recipeList != null && recipeList.Count > 0)
+                {
+                    foreach (var item in recipeList)
+                    {
+                        MyRecipes.Add(item);
+                    }
+                }
+            }           
+        }
+
+        private async Task SavetoFIle()
+        {
+            var content = JsonSerializer.Serialize(MyRecipes);            
+            // Write the file content to the app data directory
+            string targetFile = System.IO.Path.Combine(FileSystem.Current.AppDataDirectory, "my recipe.json");
+            using FileStream outputStream = System.IO.File.OpenWrite(targetFile);
+            using StreamWriter streamWriter = new StreamWriter(outputStream);
+            await streamWriter.WriteAsync(content);
         }
 
         public async Task AddRecipe(RecipeItem recipe)
@@ -31,8 +57,7 @@ namespace app.ViewModels
             if(recipe!= null && MyRecipes.Where(item=>item.FullName.Equals(recipe.FullName)).Count() == 0)
             {
                 MyRecipes.Add(recipe);
-                var service = await MyRecipeService.Instance;
-                await service.SaveRecipe(recipe);                
+                await SavetoFIle();
             }
         }
 
@@ -46,8 +71,7 @@ namespace app.ViewModels
             if(recipe != null && MyRecipes.Contains(recipe))
             {
                 MyRecipes.Remove(recipe);
-                var service = await MyRecipeService.Instance;
-                await service.DeleteRecipe(recipe.FullName);                
+                await SavetoFIle();
             }
         }
 
