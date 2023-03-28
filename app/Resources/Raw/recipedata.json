@@ -26,12 +26,352 @@
       }
     ]
   },
+   {
+    "TypeName": "EASY LUNCHES",
+    "FullName": "Copycat Crunchwrap Supreme",
+    "Image": "https://www.simplyrecipes.com/thmb/WrLm2BZBwmkv2xSmp3m89n2kgSU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Crunchwrap-LEAD-7-fcf474bd99b24dd1be950376e9cd4e94.jpg",
+    "CookTime": "40 min",
+    "BriefDescription": "Recreate Taco Bell's iconic Crunchwrap Supreme at home—it's incredibly easy and arguably better than the drive-thru version.",
+    "Steps": [
+      {
+        "Index": 1,
+        "FirstStep": "Cook the beef",
+        "SecondStep": "Set a large cast iron skillet over medium heat. When the skillet is hot, add the ground beef and use a spatula to break it up as it browns. You don’t need to add any oil. Once it is cooked through and no longer pink, scoot all the meat to one side. Hold onto the handle to tilt the skillet and use a large spoon to scoop out and discard as much fat as you’d like. Then, add the taco seasoning and water and cook for about 2 minutes, stirring frequently. Turn the burner off and set the skillet aside.",
+        "Image": "https://www.simplyrecipes.com/thmb/t4AwJaisXKDIC2V15UK1NDmjeig=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Crunchwrap-METHOD-1-26697433604d4e49b7cbf342f2704981.jpg"
+      },
+      {
+        "Index": 2,
+        "FirstStep": "Quarter a tortilla",
+        "SecondStep": "Cut 1 tortilla into 4 equal pieces by halving it into halfmoons and then halving each half. Set them aside.",
+        "Image": "https://www.simplyrecipes.com/thmb/tfQsR_0_ymK7uIFj0eT9KSzHvVs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Crunchwrap-METHOD-2-8a0cab2e69ba44e2a8a81fe4ce9120a9.jpg"
+      },
+      {
+        "Index": 3,
+        "FirstStep": "Assemble the Crunchwrap Suprem",
+        "SecondStep": "You will build one Crunchwrap Supreme at a time.Lay 1 whole tortilla on a cutting board or clean work surface. Spoon about a quarter of the nacho cheese into the center of the tortilla. Spread it out to approximately the size of your tostada. Spread about a quarter of the seasoned beef on top of the nacho cheese and top it with the tostada. If you’re using tortilla chips, layer about a quarter of them on top of the beef. Then sprinkle on a quarter each of the sour cream, lettuce, tomatoes, and cheese. Finally, place one of the cut tortilla on top.",
+        "Image": "https://www.simplyrecipes.com/thmb/bCFMf_Usbl9ZwAJGcbOBQyompzY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Crunchwrap-METHOD-3c-d8c1328a4618400f9c07a5118404b0c2.jpg"
+      },
+	   {
+        "Index": 4,
+        "FirstStep": "Wrap the Crunchwrap Supreme",
+        "SecondStep": "Fold the bottom tortilla—start with the part closest to you—up towards the center of the layered filling. Using both hands, spin the Crunchwrap Supreme clockwise and do another fold. Repeat until the bottom tortilla is fully folded up and covering the top tortilla—I get about 6 folds. The filling is now fully covered by the folded tortilla.Use both hands to carefully flip the Crunchwrap Supreme so the folded seams face down.",
+        "Image": "https://www.simplyrecipes.com/thmb/rZ-7SZwCl0Nepa1LNb_G-ewOt4o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Crunchwrap-METHOD-4-fa65ad3fec8f4d0aac2e22f4e567f8a5.jpg"
+      },
+	  {
+        "Index": 5,
+        "FirstStep": "Griddle the Crunchwrap Supreme",
+        "SecondStep": "Heat a large cast iron skillet over medium heat. Once hot, add a teaspoon of vegetable oil and the Crunchwrap Supreme, seam side-down. Use a spatula to gently press it down to help seal the seams. Cook for about 2 minutes until golden brown. Carefully flip it and cook the other side until golden brown, about 2 minutes.Assemble and cook the remaining 3 wraps following steps 3 to 5.",
+        "Image": "https://www.simplyrecipes.com/thmb/fDKFtIrrJ1fr84xDRtXuqu_RoOE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Crunchwrap-METHOD-5-3562c161142544798082a083b2c3bfde.jpg"
+      },
+	   {
+        "Index": 6,
+        "FirstStep": "Serve",
+        "SecondStep": "ransfer the Crunchwrap Supremes onto a cutting board and cut in half. Serve warm with hot sauce on the side, if desired.",
+        "Image": "https://www.simplyrecipes.com/thmb/G9efSFO9vWI1dL3qXfTrSGbbieA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Crunchwrap-METHOD-6-7db7ba8be4e1472c97ff04bc3844efc8.jpg"
+      }
+    ]
+  },
   {
-    "TypeName": "YELLOW CAKE",
-    "FullName": "Coconut Cake with Lemon Curd and Vanilla Buttercream",
-    "Image": "https://www.simplyrecipes.com/thmb/mlClnRU9eIg5CvhZ-i6ja6wwtzM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__12__2016-12-14-Coconut-Cake-14-29ca1a404a834158bcd0943465825f1c.jpg",
-    "CookTime": "1 h",
-    "BriefDescription": "This coconut cake is a total showstopper at any gathering. With lemon curd filling and vanilla buttercream frosting. Make-ahead options; keeps well."
+    "TypeName": "KORAN",
+    "FullName": "Classic Kimbap (Korean Seaweed Rice Roll)",
+    "Image": "https://www.simplyrecipes.com/thmb/cqPFbAhBjGG6bSysbwv8eONsxBE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-LEAD-03-e264d50ecfa948c59c69a3c26e12c6dc.jpg",
+    "CookTime": "45 min",
+    "BriefDescription": "Here’s a step-by-step guide on how to make a classic Korean kimbap with seasoned rice, beef, and lots of vegetables.",
+    "Steps": [
+       {
+        "Index": 1,
+        "FirstStep": "Marinate the beef",
+        "SecondStep": "In a medium bowl, add the steak, soy sauce, rice vinegar, sugar, and garlic. Mix well and cover with plastic wrap. Set aside to marinate while you prepare the other ingredients.",
+        "Image": "https://www.simplyrecipes.com/thmb/nx-XBRSFsAApcT8mE8-13uLL38U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-02-538a2c856adc46748fe0ddc09aed104b.jpg"
+      },
+	   {
+        "Index": 2,
+        "FirstStep": "Season the rice",
+        "SecondStep": "In a large bowl, add the freshly cooked rice, sesame oil, and salt. Mix with a large spoon until the rice is evenly coated in the sesame oil. Set aside to cool.",
+        "Image": "https://www.simplyrecipes.com/thmb/tqr_lHhNWtr9j6KOQO4_9Xmvnzk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-08-8065b2b1b77e452b870f6b2f9f32bd6c.jpg"
+      },
+	   {
+        "Index": 3,
+        "FirstStep": "Cook the spinach",
+        "SecondStep": "Bring a medium pot of water to a boil over high heat. Fill a large bowl with ice water and set it next to the stovetop. Blanch the spinach in the boiling water for about 15 seconds. Use tongs to transfer the spinach into the ice water to stop the cooking. Once cooled, use your hands to squeeze out as much water as possible. Transfer it into a medium bowl and stir in the sesame oil and salt. Place the seasoned spinach on a large plate.",
+        "Image": "https://www.simplyrecipes.com/thmb/Lm1FwY3sjS1F9ea8bUzHzY5ferc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-05-663ea0c12f7644b2bd7047595305e729.jpg"
+      },
+	   {
+        "Index": 4,
+        "FirstStep": "Cook the carrots",
+        "SecondStep": "Heat a large pan with 1 teaspoon vegetable oil over medium-high heat. Sauté the carrots for about 1 minute until a little tender. It will not be soft and cooked through. Stir in a pinch of salt. Place the cooked carrots next to the spinach.",
+        "Image": "https://www.simplyrecipes.com/thmb/oTj_H06jvh29XJMJRfFxHIfpnJs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-07-86223445434e46eba53e98827e32a36c.jpg"
+      },
+	   {
+        "Index": 5,
+        "FirstStep": "Cook the beef",
+        "SecondStep": "Set the same pan used to cook the carrots over medium-high heat and add 1 teaspoon vegetable oil. Sauté the marinated beef until cooked through, about 4 minutes. Place the cooked beef next to the spinach and carrots.",
+        "Image": "https://www.simplyrecipes.com/thmb/kShoEbQVPbmDA-S1OUa9Jzvd6TA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-03a-2de6b61efd6a4c0a9669651ca624f44b.jpg"
+      },
+	   {
+        "Index": 6,
+        "FirstStep": "Assemble the kimbap",
+        "SecondStep": "You can set the strips of danmuji on the same large plate with the fillings. Fill a small bowl of water for dipping your fingers into. Having all the ingredients ready and together will help make assembling the kimbap much easier. Place a sheet of gim, shiny side-down, on the rolling mat. Use your fingers to spread about 3/4 cup of rice evenly on top of the seaweed, leaving about an inch border uncovered at the top. Lightly dampen your fingers with water to prevent the rice from sticking to them. Dip a finger into the water and lightly dampen the inch border of seaweed. This will help seal it after you roll it. ",
+        "Image": "https://www.simplyrecipes.com/thmb/KyL5mE5pn_kHIp5vx6Oy1V7NDyg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-09-60314ea2a5e74878a13d2d7295fdb088.jpg"
+      },
+	   {
+        "Index": 7,
+        "FirstStep": "Add the fillings",
+        "SecondStep": "Place about one sixth of the prepared carrots, spinach, beef, and danmuji on the center of the rice—they will lay in a strip from left to right.",
+        "Image": "https://www.simplyrecipes.com/thmb/xEa1NKAomnXbcPZhsvULckXm8IM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-11-e5aa14ea6da34623bc70b888f4840619.jpg"
+      },
+	   {
+        "Index": 8,
+        "FirstStep": "Roll the kimbap",
+        "SecondStep": "Lift the end of the rolling mat closest to you to fold the gim over the filling, squeezing gently and evenly. Tuck the filling in with your fingers and continue rolling and squeezing until you reach the end of the roll. Pull the end of the mat out and above the roll. Press into the dampened border to seal it, seam-side down. Brush the outside of the roll with a little sesame oil.",
+        "Image": "https://www.simplyrecipes.com/thmb/ec74hG0g9QpVIBYVG_vM4SDh4Dk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-13-904807c4eb144703ad2cbc9c91247006.jpg"
+      },
+	   {
+        "Index": 9,
+        "FirstStep": "Cut and serve the kimba",
+        "SecondStep": "Roll the remaining kimbap. The gim will become more pliable as it sits, making it easier to cut. Use a sharp knife to cut the kimbap into 6 to 8 pieces. Serve at room temperature.Kimbap is best served soon after making. In the unlikely event that you have leftovers, store in an airtight container with parchment between each layer. Allow them to come to room temperature before eating; otherwise, the rice will be hard. My mom used to dip leftover kimbap in pajeon batter and pan fry in oil for a treat!",
+        "Image": "https://www.simplyrecipes.com/thmb/EmYHAXqCzZUEb76CcqjIHoRowCs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Kimbap-METHOD-17-28a11d2e24c044ef965ba12d2a69db6e.jpg"
+      }
+    ]
+  },
+  {
+    "TypeName": "DINNERS",
+    "FullName": "How to Make a Burger on the Stove",
+    "Image": "https://www.simplyrecipes.com/thmb/jzp_62Hn_98do4zDeGq-o-lMN-0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Burger-On-Stovetop-LEAD-02-f2735a5ada4e43cfb361dc0cfad246d3.jpg",
+    "CookTime": "15 min",
+    "BriefDescription": "No grill, no problemo! Here's how to make an incredible burger indoors on the stove. An optional quick seasoning mix takes it to the next level.",
+    "Steps": [
+       {
+        "Index": 1,
+        "FirstStep": "Prepare the optional burger seasoning mi",
+        "SecondStep": "Before you start cooking, prepare the seasoning mix. In a small bowl, mix together the salt, pepper, and garlic powder. Set aside.",
+        "Image": ""
+      },
+	   {
+        "Index": 2,
+        "FirstStep": "Make the sauce",
+        "SecondStep": "In another small bowl, mix the mayonnaise, mustard, and ketchup together until smooth. Set aside.",
+        "Image": "https://www.simplyrecipes.com/thmb/Bu6Udk-eFUeLr5cKEg_hX1tby9c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Burger-On-Stovetop-METHOD-03-eefdfac005d14d48b2c08fc4d645a37a.jpg"
+      },
+	   {
+        "Index": 3,
+        "FirstStep": "Form the burgers",
+        "SecondStep": "Preheat a large sturdy skillet (cast iron is best) over medium heat. Loosely divide the ground beef into three 1/3-pound patties. Shape into discs about 1/2 inch thick and put a divot in the center of each patty to prevent swelling in the center. Season the patties with 1/2 teaspoon of seasoning mix per side of the patty, if using.",
+        "Image": "https://www.simplyrecipes.com/thmb/J3j9SBTIx8bkkAnhUoN7HCxdtC8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Burger-On-Stovetop-METHOD-01-d317ced8eb404211b2d8fd7047d86445.jpg"
+      },
+	    {
+        "Index": 4,
+        "FirstStep": "Cook the burgers",
+        "SecondStep": "Turn on the fan over the stove and open a window to help with air flow. Spray your skillet with a little non-stick spray and place burgers in the skillet. Press down on each patty with a spatula for 10 seconds. This is to encourage browning. Cook the burgers over medium heat for 4 minutes. Don’t touch them too much so you get a nice crust on the first side. Use a sturdy metal spatula to flip the burgers, being sure to scrape up any caramelization with the burger.",
+        "Image": "Flip the burgers"
+      },
+	    {
+        "Index": 5,
+        "FirstStep": "Flip the burgers",
+        "SecondStep": "After you flip the burgers, add the cheese, if using, and continue to cook for 3 minutes until the burger is cooked to desired doneness, usually medium. If you are only cooking one burger, you can toast your buns in the same skillet as your patty, or you can toast them separately if you are cooking multiple burgers at once.If you want the cheese to be very melted, cover the burgers with a lid for the last minute of cooking.",
+        "Image": "https://www.simplyrecipes.com/thmb/PVz7_WOK_u9Z6eGb-0EBdpn6F-g=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Burger-On-Stovetop-METHOD-02a-b35574d5761b43e4b557a366e1f0d8e8.jpg"
+      },
+	    {
+        "Index": 6,
+        "FirstStep": "Build the burgers and serve",
+        "SecondStep": "Build your burgers by spreading some burger sauce on each bun. Put the burgers on the bottom bun and top with the lettuce, onions, tomatoes, and the top bun. Serve immediately with a cold drink.",
+        "Image": "https://www.simplyrecipes.com/thmb/LoTvUq4ueNjolH2tALJ8S1WcpN4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Burger-On-Stovetop-LEAD-03-024b974809034fe7a7daf9e9eda5606a.jpg"
+      }
+    ]
+  },
+  {
+    "TypeName": "EGGS",
+    "FullName": "Menemen (Turkish Scrambled Eggs and Tomatoes)",
+    "Image": "https://www.simplyrecipes.com/thmb/Iwd4UrTm32z5r5DNyup0LE0WYHE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Menemen-LEAD-09-a6cfe058d5af47519b62c34dce2b637c.jpg",
+    "CookTime": "40 min",
+    "BriefDescription": "Transport yourself to the cafes of Istanbul with menemen. This delicious, quick, and easy scrambled eggs with tomatoes recipe can be served for breakfast, lunch, or dinner.",
+    "Steps": [
+       {
+        "Index": 1,
+        "FirstStep": "Prepare the tomatoes and eggs",
+        "SecondStep": "Stem the tomatoes. Using the largest holes on a box grater, grate the tomatoes into a medium bowl. Discard any excess peel.Crack the eggs into a separate medium bowl and beat with a whisk.",
+        "Image": "https://www.simplyrecipes.com/thmb/3I1sbFruLJlicX5oP5VkwI7zwOk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Menemen-METHOD-01-ef5b69b095184e5b99e706a35820de2d.jpg"
+      },
+	   {
+        "Index": 2,
+        "FirstStep": "Cook the onion, garlic, and pepper",
+        "SecondStep": "Heat the olive oil in a large skillet over medium heat. Add the onion and salt and cook, stirring occasionally, for 3 minutes. Add the garlic followed by the green peppers (sivri biber) and cook, stirring occasionally, until the vegetables soften, about 5 minutes.",
+        "Image": "https://www.simplyrecipes.com/thmb/622nrZxDzvgRUkI9wbhWj7SwwMw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Menemen-METHOD-02a-66365d04c0e9410caaabf4412b0e0ec1.jpg"
+      },
+	    {
+        "Index": 3,
+        "FirstStep": "Add the tatli biber salçasi, tomatoes, and spices",
+        "SecondStep": "Add tatli biber salçasi and stir it into the vegetable mixture until evenly distributed. Add the grated tomatoes, pul biber, oregano, and black pepper and simmer until most of the juices from the grated tomatoes have been cooked off and the mixture has thickened, stirring occasionally, about 10 minutes.",
+        "Image": "https://www.simplyrecipes.com/thmb/6kxV-vyswmFJ6j8EM7xwalM_7aM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Menemen-METHOD-03-f72b8348d25e4d46b75b26bb045546d7.jpg"
+      },
+	    {
+        "Index": 4,
+        "FirstStep": "Cook the eggs",
+        "SecondStep": "Pour the beaten eggs into the pan and stir to distribute evenly into the vegetable mixture. Stir gently until the eggs start to firm up, about 5 minutes. Remove from the heat. As the menemen mixture has a lot of tomatoes and vegetables, the consistency will be wetter than plain scrambled eggs.",
+        "Image": "https://www.simplyrecipes.com/thmb/4hVJa8ft9e-_cH-tug8f9lQpk9s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Menemen-METHOD-05-07b76af3a71b4d1aad06e46c7b271fb9.jpg"
+      },
+	    {
+        "Index": 5,
+        "FirstStep": "Garnish and serve",
+        "SecondStep": "Mix 1 teaspoon pul biber with 2 tablespoons of olive oil in a small bowl. Garnish the menemen with drizzles of the flavored oil and chopped parsley leaves scattered on top. Serve immediately.Leftovers should be stored in an airtight container in the fridge and eaten within 2 days. Menemen can be reheated in the microwave or gently heated in a skillet on low heat.",
+        "Image": "https://www.simplyrecipes.com/thmb/lHNGcpnx-Dqgjb3CidOj6qlBusc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Menemen-LEAD-06-e2983dd3c8874286869bafa202b3c779.jpg"
+      }
+    ]
+  },
+  {
+    "TypeName": "DINNERS",
+    "FullName": "Vegan Patty Melt",
+    "Image": "https://www.simplyrecipes.com/thmb/dkNsYNB8NKQw9tTGwLp4CfAqsps=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Patty-Melt-LEAD-4copy2-0b1c45d2295746d7bf105e0193a93d1e.jpg",
+    "CookTime": "40 min",
+    "BriefDescription": "Perfectly toasted bread, melted cheese, sweet caramelized onions, and a thin plant-based patty—all dripping in tangy Thousand Island dressing. Make this vegan patty melt recipe stat!",
+    "Steps": [
+       {
+        "Index": 1,
+        "FirstStep": "Cut the onion into half moons",
+        "SecondStep": "Cut off the ends of the onion and peel back the skin. Slice it lengthwise from root to end. Then thinly slice each of the halves so that you have half moons. Use your hands to break them up. Finely dice 1 tablespoon of the onion for the sauce and set it aside.",
+        "Image": "https://www.simplyrecipes.com/thmb/yCCQn9Hx4c5cT08zYJT4aIeA_nw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Patty-Melt-METHOD-1-2b8a2d7bc1574a23afe032cf6da52f73.jpg"
+      },
+	   {
+        "Index": 2,
+        "FirstStep": "Cook the onions",
+        "SecondStep": "Add the oil to a large skillet over medium heat. Once it is shimmering, add the onions and stir to coat them in oil. Cook them until they are translucent and golden brown, stirring frequently to keep them from burning, about 15 minutes. (If needed, adjust the heat so that they don’t brown too much.) Add the apple cider vinegar in the last minute and stir to deglaze the pan. Remove the onions from the heat and set aside. Leave the pan to cool.",
+        "Image": "https://www.simplyrecipes.com/thmb/oYSm0jaciVJXSeABrf57gMBiz8s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Patty-Melt-METHOD-5-8985df713226444db27e64b76ef68fa1.jpg"
+      },
+	  	{
+        "Index": 3,
+        "FirstStep": "While the onions are cooking, make the sauce",
+        "SecondStep": "In a small bowl, whisk together the vegan mayonnaise, ketchup, dill relish, pickle juice, reserved diced onion, garlic powder, paprika, salt, and pepper. Set aside.",
+        "Image": "https://www.simplyrecipes.com/thmb/oShoSjc2gWNV7EBip-HWU4axkAg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Patty-Melt-METHOD-3-2c944c91b6f2417dbe2dcaf9e467d74b.jpg"
+      },
+	  	{
+        "Index": 4,
+        "FirstStep": "Cook the plant-based patty",
+        "SecondStep": "Wipe out the pan you used to cook the onions. Using your hands, flatten the patties a little and shape them to fit your bread. For a mustard-grilled patty, spread a dollop of Dijon mustard on one side of the patty before placing it mustard-side down in the pan to cook. Cook the patties according to the package instructions. You can shorten the cook time by 1 minute on the second side since the patties are thinner; it’s okay if they are a little pink in the center. Remove the patties and let the pan cool a bit before wiping it out.",
+        "Image": "https://www.simplyrecipes.com/thmb/PYjcZUbaVEHBSa5iVeXADVazr9I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Patty-Melt-METHOD-6-f8c140f94b284157845348b2b8f69397.jpg"
+      },
+	   {
+        "Index": 5,
+        "FirstStep": "Toast the bread and cheese",
+        "SecondStep": "Place a slice of vegan cheese on each piece of rye bread.Place the pan over medium heat and add the butter. Once it melts, add the pieces of bread cheese side up. Lower the heat to medium-low, cover, and cook until the cheese starts to melt, about 5 minutes.",
+        "Image": "https://www.simplyrecipes.com/thmb/HTtuVi6h2O2Gx8pOq7rcySD-g0A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Patty-Melt-METHOD-10-935e0f88d34e49d0927ab525f07f09d4.jpg"
+      },
+	  	{
+        "Index": 6,
+        "FirstStep": "Assemble the sandwich",
+        "SecondStep": "Remove the cover and assemble your sandwiches. On 2 slices of bread, stack 1/4 cup caramelized onions, one tablespoon of Thousand Island sauce, the cooked patty, and a few pickle slices (if using). Place the remaining 2 pieces of bread on top. Turn the heat up to medium and use a spatula to press down your patty melt and let it cook for a few more minutes, or until the cheese fully melts and the bread is toasty but not burnt.",
+        "Image": "https://www.simplyrecipes.com/thmb/plRv26mJIS-KHsQKA-zW_Ci2tzA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Patty-Melt-METHOD-11-b9c30730799d46d88c6badbbf3e78d14.jpg"
+      },
+	  	{
+        "Index": 7,
+        "FirstStep": "Serve",
+        "SecondStep": "Remove the sandwiches from the pan and cut them in half. Serve with more vegan Thousand Island dressing. You can store extra dressing or caramelized onions in a sealed container in the fridge for up to 5 days.",
+        "Image": "https://www.simplyrecipes.com/thmb/ZsS_3wVKYemoNiujSWnnogZix9Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Patty-Melt-LEAD-2-0d2408b59d344275bef025977a880554.jpg"
+      }
+    ]
+  },
+  {
+    "TypeName": "DINNERS",
+    "FullName": "Classic Chopped Italian Salad",
+    "Image": "https://www.simplyrecipes.com/thmb/rpkdaIHmHN5BrFBn6R76qg8-BNs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Italian-Chopped-Salad-LEAD-01-d544971a5f5e4c8fb130dc7b2127cfb7.jpg",
+    "CookTime": "25 min",
+    "BriefDescription": "Classic chopped Italian salad has a pleasing mix of pickled vegetables, cured meats, and cheeses. Serve as a colorful dinner on its own, or a starter with pasta or pizza.",
+    "Steps": [
+       {
+        "Index": 1,
+        "FirstStep": "Making the dressing",
+        "SecondStep": "In a jar with a lid add the lemon juice, mustard, vinegar, sugar, oregano, olive oil, kosher, salt, and black pepper. Add the lid and shake for 10 seconds until all of the ingredients are thoroughly combined. Taste and adjust seasonings to your liking.",
+        "Image": "https://www.simplyrecipes.com/thmb/fQPzVATbZ3QIgnYkmA2kF5JozXI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Italian-Chopped-Salad-METHOD-02-16dfc4051b1643738e35db55d3b2f8ae.jpg"
+      },
+	   {
+        "Index": 2,
+        "FirstStep": "Make the salad",
+        "SecondStep": "Add the chopped Romaine to a large bowl and drizzle with a few tablespoons of dressing. Top the romaine with the red onion, chickpeas, cherry tomatoes, mozzarella, pepperoncini, roasted red peppers and basil. Stir together well before serving. Add more dressing, if desired.",
+        "Image": "https://www.simplyrecipes.com/thmb/htLBddzKARpTP2gmtgbs5oVSp4Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Italian-Chopped-Salad-LEAD-03-e9c73fc3272c454e8701a9038191676e.jpg"
+      },
+	    {
+        "Index": 3,
+        "FirstStep": "Serve",
+        "SecondStep": "Serve the salad in bowls with pasta or pizza for a classic Italian meal.",
+        "Image": ""
+      },
+	    {
+        "Index": 4,
+        "FirstStep": "Leftovers and storage",
+        "SecondStep": "If you are planning to store this salad for later, I would recommend storing it without the dressing.If you do dress it and have some leftovers, that’s okay—the dressed salad will keep for 1-2 days in the fridge. The greens just wilt pretty quickly once they are dressed.  ",
+        "Image": "https://www.simplyrecipes.com/thmb/9LU2y0aabMuRSNXlG0NcOcc3DMI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Italian-Chopped-Salad-LEAD-05-e5abc0df743b41edb70f73e56ce62153.jpg"
+      }
+    ]
+  },
+  {
+    "TypeName": "BRUNCH",
+    "FullName": "Easy Asparagus Tart with Goat Cheese",
+    "Image": "https://www.simplyrecipes.com/thmb/EDELbCV8xRdwYwlD7irrq0jG6bQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Asparagus-Tart-LEAD-4-5bc3f1a3fee74da29538151b80d9ba8b.jpg",
+    "CookTime": "55 min",
+    "BriefDescription": "Fill store-bought puff pastry with goat cheese and pecorino then top with spears of asparagus for an easy, but dramatic, tart. Perfect for weekend brunch or light weeknight dinner.",
+    "Steps": [
+       {
+        "Index": 1,
+        "FirstStep": "Preheat the oven and thaw the pastry",
+        "SecondStep": "Place a cookie sheet on a rack in the center of the oven. Heat oven to 400˚F or according to puff pastry package instructions. Remove puff pastry from freezer and let stand at room temperature while you make the filling.",
+        "Image": ""
+      },
+	   {
+        "Index": 2,
+        "FirstStep": "Make the filling",
+        "SecondStep": "Zest the lemon into a small bowl and set the zest aside. You will use it later. In a medium bowl, beat 1 egg with the goat cheese, Pecorino Romano cheese, and 1 tablespoon freshly squeezed lemon juice.",
+        "Image": "https://www.simplyrecipes.com/thmb/mGCj3J29QTWIz2rfMduToe49VH8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Asparagus-Tart-METHOD-1-52d69e8b1e4d4486a5122495c0761245.jpg"
+      },
+	  	{
+        "Index": 3,
+        "FirstStep": "Create the tart shell",
+        "SecondStep": "When the pastry is pliable enough to work with, generally after 20 to 30 minutes, unfold both sheets on a sheet of parchment paper. Overlap ends by 1 inch, forming 1 long rectangle (about 17 inches x 9 inches); press together to seal.Beat the remaining egg with 1 teaspoon water, then brush a 1-inch rim of egg wash around the pastry rectangle.Fold edges inward and press to create a 1-inch border. This acts as a “glue” and creates a picture frame effect. Use additional egg wash to seal corners where they overlap. Brush top of folded rim with egg wash.",
+        "Image": "https://www.simplyrecipes.com/thmb/Rsyx-Fw7nrpIR2fuR2pTAnjL0o4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Asparagus-Tart-METHOD-2-ed90f8c95b614f8fa78c994e9c52f41e.jpg"
+      },
+	  	{
+        "Index": 4,
+        "FirstStep": "Top the tart",
+        "SecondStep": "Spread the goat cheese mixture inside the pastry border. Toss the asparagus with the oil and salt, then arrange in a single layer on top of the cheese. If you want to get fancy, feel free to play with the arrangement of your asparagus.",
+        "Image": "https://www.simplyrecipes.com/thmb/fmp9xBTRdutwoJv01M6ztJ4XGIg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Asparagus-Tart-METHOD-4-ff59262d606f497480a08dd12e9d9767.jpg"
+      },
+	  	{
+        "Index": 5,
+        "FirstStep": "Bake",
+        "SecondStep": "Remove the hot cookie sheet from the oven and add the parchment with the tart; return the cookie sheet to the oven. Bake the tart until golden brown and flaky, 30 to 35 minutes.",
+        "Image": ""
+      },
+	  	{
+        "Index": 6,
+        "FirstStep": "Serve",
+        "SecondStep": "Sprinkle the lemon zest over the asparagus and then cut the tart into triangles or squares. Serve immediately or let cool on a rack and serve at room temperature.",
+        "Image": "https://www.simplyrecipes.com/thmb/BVa__UX4Vs9P03zA3GyL3RbkNYM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Asparagus-Tart-METHOD-5-f63d5ea3fd9440869365a2679372b222.jpg"
+      }
+    ]
+  },
+  {
+    "TypeName": "CHICKEN WRAPS",
+    "FullName": "Chicken Caesar Wrap",
+    "Image": "https://www.simplyrecipes.com/thmb/VjYeplhRqSEhPUASPuccmfGU5gw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chicken-Caesar-Wrap-LEAD-4-3462748031b34985b4b4cc27b4165bf0.jpg",
+    "CookTime": "20 min",
+    "BriefDescription": "What’s better than a classic Caesar salad? A chicken Caesar wrap! Here’s an easy way to assemble one, plus some fun variations to try.",
+    "Steps": [
+       {
+        "Index": 1,
+        "FirstStep": "Make the salad",
+        "SecondStep": "In a large bowl, add the chicken, lettuce, Caesar dressing, Parmesan cheese, and croutons. Toss until everything is evenly coated in the dressing. Taste and season with salt and black pepper, if needed.",
+        "Image": "https://www.simplyrecipes.com/thmb/jv9PMPLNS9nXF0YY3mWY-ZHuI4I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chicken-Caesar-Wrap-METHOD-1-e621869be84b4d82a9529548378f2df6.jpg"
+      },
+	   {
+        "Index": 2,
+        "FirstStep": "Wrap the salad",
+        "SecondStep": "Place a tortilla flat on a cutting board or clean work surface. Add a quarter of the salad in the center of the tortilla. Fold the left and right edges in towards the center, then tuck the side closest to you up and roll it tightly. Secure it with a toothpick, if you’d like. You could also keep the wrap seam side-down so that it doesn’t unroll. Assemble the remaining 3 wraps just like this.",
+        "Image": "https://www.simplyrecipes.com/thmb/J_e315whHS1fwAoXBpF0YVoLFJQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chicken-Caesar-Wrap-METHOD-3-12a914ec02214ca6ae2021d6e0eee71a.jpg"
+      },
+	   {
+        "Index": 3,
+        "FirstStep": "Serve",
+        "SecondStep": "Cut the wraps in half or serve them whole. The chicken Caesar wraps can be wrapped in plastic wrap, parchment paper, or foil, and refrigerated for up to 2 days.",
+        "Image": "https://www.simplyrecipes.com/thmb/VjYeplhRqSEhPUASPuccmfGU5gw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chicken-Caesar-Wrap-LEAD-4-3462748031b34985b4b4cc27b4165bf0.jpg"
+      }
+    ]
   }
-  
 ]

@@ -1,4 +1,5 @@
-﻿using app.Views;
+﻿using Android.OS;
+using app.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -31,25 +32,46 @@ namespace app.ViewModels
                 using var stream = File.OpenRead(targetFile);
                 using var reader = new StreamReader(stream);
                 var contents = reader.ReadToEnd();
-                var recipeList = JsonSerializer.Deserialize<List<RecipeItem>>(contents);
-                if (recipeList != null && recipeList.Count > 0)
+                try
                 {
-                    foreach (var item in recipeList)
+                    var recipeList = JsonSerializer.Deserialize<List<RecipeItem>>(contents);
+                    if (recipeList != null && recipeList.Count > 0)
                     {
-                        MyRecipes.Add(item);
+                        foreach (var item in recipeList)
+                        {
+                            MyRecipes.Add(item);
+                        }
                     }
                 }
+                catch (Exception ex)
+                {
+                    try
+                    {
+                        File.Delete(targetFile);
+                    }
+                    catch (Exception ex2)
+                    {
+
+                    }                    
+                }                
             }           
         }
 
         private async Task SavetoFIle()
         {
-            var content = JsonSerializer.Serialize(MyRecipes);            
-            // Write the file content to the app data directory
-            string targetFile = System.IO.Path.Combine(FileSystem.Current.AppDataDirectory, "my recipe.json");
-            using FileStream outputStream = System.IO.File.OpenWrite(targetFile);
-            using StreamWriter streamWriter = new StreamWriter(outputStream);
-            await streamWriter.WriteAsync(content);
+            try
+            {
+                var content = JsonSerializer.Serialize(MyRecipes);
+                // Write the file content to the app data directory
+                string targetFile = System.IO.Path.Combine(FileSystem.Current.AppDataDirectory, "my recipe.json");
+                using FileStream outputStream = System.IO.File.Open(targetFile, FileMode.Create);
+                using StreamWriter streamWriter = new StreamWriter(outputStream);
+                await streamWriter.WriteAsync(content);
+            }
+            catch (Exception ex)
+            {
+               //maybe display some toast later to tell use that the config file write failed
+            }            
         }
 
         public async Task AddRecipe(RecipeItem recipe)
