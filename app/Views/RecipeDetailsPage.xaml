@@ -12,8 +12,7 @@
             <Grid HorizontalOptions="Fill" HeightRequest="60" ColumnDefinitions="*,Auto,20">
                 <Label Grid.Column="0"
                     Text="{Binding CurrentRecipe.TypeName}"
-                    FontFamily="NotoSerifBold"
-                    FontSize="26"
+                    Style="{StaticResource typenameLable}"
                     Margin="20,10"/>
                 <HorizontalStackLayout Grid.Column="1" >
                     <Image Source="time.svg" Aspect="Fill" HeightRequest="30" WidthRequest="30"></Image>
@@ -46,10 +45,9 @@
                                     <Grid Padding="0" RowDefinitions="Auto,Auto,*">
                                         <Grid Grid.Row="0" ColumnDefinitions="Auto,*">
                                             <Label Grid.Column="0" Text="{Binding Index}" Style="{StaticResource fullnameLable}" VerticalOptions="Start" Margin="3"></Label>
-                                            <Label Grid.Column="1" Text="{Binding FirstStep}" Style="{StaticResource fullnameLable}" VerticalOptions="Center"></Label>
-                                        </Grid>
-                                        
-                                        <Label Grid.Row="1" Text="{Binding SecondStep}" Style="{StaticResource typenameLable}"></Label>
+                                            <Label Grid.Column="1" Text="{Binding FirstStep}" Style="{StaticResource firstStepLable}" VerticalOptions="Center"></Label>
+                                        </Grid>                                        
+                                        <Label Grid.Row="1" Text="{Binding SecondStep}" Style="{StaticResource detaildscriptionLable}"></Label>
                                         <Image Grid.Row="2" Source="{Binding Image}" Aspect="Fill"   />
                                     </Grid>
                                 </Frame>

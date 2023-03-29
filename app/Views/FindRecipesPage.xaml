@@ -7,9 +7,7 @@
              x:DataType="viewmodel:FindRecipesPageViewModel"
              Title="Find Recipes">
     <Grid>
-        <RefreshView 
-            Command="{Binding GetAllRecipesCommand}"
-            IsRefreshing="{Binding IsRefreshing}">
+        <RefreshView Command="{Binding GetAllRecipesCommand}" IsRefreshing="{Binding IsRefreshing}">
             <Grid RowDefinitions="*,60">
                 <ContentView Grid.Row="0">
                     <CollectionView ItemsSource="{Binding AllRecipes}" >
@@ -29,13 +27,14 @@
                                             <Frame BorderColor="Purple" CornerRadius="5">
                                                 <Frame.GestureRecognizers>
                                                     <TapGestureRecognizer 
-                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}}, Path=GoToDetailsCommand}"
-                                                CommandParameter="{Binding .}"/>
+                                                         Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}}, Path=GoToDetailsCommand}"
+                                                         CommandParameter="{Binding .}">                                                        
+                                                    </TapGestureRecognizer>
                                                 </Frame.GestureRecognizers>
                                                 <Grid Padding="0" RowDefinitions="Auto,Auto,*,30">
                                                     <Image Grid.Row="0" Source="{Binding Image}" Aspect="Fill"   />
-                                                    <Label Grid.Row="1" Text="{Binding TypeName}"></Label>
-                                                    <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" />
+                                                    <Label Grid.Row="1" Text="{Binding TypeName}" Style="{StaticResource typenameLable}"></Label>
+                                                    <Label Grid.Row="2" FontSize="Large" Text="{Binding FullName}" Style="{StaticResource fullnameLable}" />
                                                     <Grid Grid.Row="3" ColumnDefinitions="*,*,20">
                                                         <HorizontalStackLayout Grid.Column="0">
                                                             <Image Grid.Column="0" Source="time.svg" VerticalOptions="Center"></Image>
@@ -43,7 +42,8 @@
                                                         </HorizontalStackLayout>
                                                         <ImageButton Grid.Column="1" Source="add.svg" HorizontalOptions="End"
                                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:FindRecipesPageViewModel}},Path=AddtoMyRecipeCommand}"
-                                                                CommandParameter="{Binding .}"></ImageButton>
+                                                                CommandParameter="{Binding .}">                                                            
+                                                        </ImageButton>
                                                     </Grid>
                                                 </Grid>
                                             </Frame>
@@ -59,12 +59,9 @@
             </Grid>
 
         </RefreshView>
-        <ActivityIndicator            
-            HorizontalOptions="Fill"
-            IsRunning="{Binding IsBusy}"
-            IsVisible="{Binding IsBusy}"
-            Color="{StaticResource Primary}"
-            VerticalOptions="Center" />
+      
+        <ActivityIndicator HorizontalOptions="Fill" IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" Color="{StaticResource Primary}" VerticalOptions="Center" />
+          
     </Grid>
     
 

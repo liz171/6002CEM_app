@@ -1,5 +1,6 @@
 ﻿using Android.OS;
 using app.Views;
+using CommunityToolkit.Maui.Core;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,6 +9,7 @@ using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using CommunityToolkit.Maui.Alerts;
 
 namespace app.ViewModels
 {
@@ -80,6 +82,13 @@ namespace app.ViewModels
             {
                 MyRecipes.Add(recipe);
                 await SavetoFIle();
+
+                CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+                string text = $"Recipe Added!";
+                ToastDuration duration = ToastDuration.Short;
+                double fontSize = 18;
+                var toast = Toast.Make(text, duration, fontSize);
+                await toast.Show(cancellationTokenSource.Token);
             }
         }
 

@@ -24,22 +24,36 @@
                 </VisualStateGroup>
             </VisualStateGroupList>
         </Setter>
-    </Style>
+    </Style>    
 
     <Style TargetType="Label" x:Key="typenameLable">
         <Setter Property="FontSize" Value="Medium"/>
-        <Setter Property="TextColor"  Value="MediumPurple"/>
+        <Setter Property="TextColor"  Value="{StaticResource Primary}"/>
         <Setter Property="FontFamily" Value="Light"/>
+        <Setter Property="FontSize" Value="26"/>
     </Style>
     
     <Style TargetType="Label" x:Key="fullnameLable">
         <Setter Property="FontSize" Value="Large"/>
-        <Setter Property="TextColor"  Value="Black"/>        
+        <Setter Property="TextColor"  Value="{StaticResource Blue100Accent}"/>
+        <Setter Property="FontSize" Value="28"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="firstStepLable">
+        <Setter Property="FontSize" Value="Large"/>
+        <Setter Property="TextColor"  Value="{StaticResource Blue100Accent}"/>
+        <Setter Property="FontSize" Value="25"/>
     </Style>
 
     <Style TargetType="Label" x:Key="birefLabel">
         <Setter Property="FontSize" Value="Medium"/>
         <Setter Property="TextColor"  Value="Black"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="detaildscriptionLable">
+        <Setter Property="FontSize" Value="Medium"/>
+        <Setter Property="TextColor"  Value="{StaticResource Blue100Accent}"/>
+        <Setter Property="FontFamily" Value="Light"/>        
     </Style>
 </ResourceDictionary>
 
