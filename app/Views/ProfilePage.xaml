@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app.Views.ProfilePage"
+             xmlns:viewmodel="clr-namespace:app.ViewModels"
+             xmlns:model="clr-namespace:app.Models"
+             x:DataType="viewmodel:ProfilePageViewModel"   
+             Title="ProfilePage">
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text="About me" FontFamily="PoppinsSemibold" TextColor="{StaticResource Gray300}"/>
+            <Grid RowDefinitions="*,*,*" ColumnDefinitions="0.5*,*" HeightRequest="120">
+                <Label Grid.Row="0" Grid.Column="0" Text="Name" VerticalOptions="Center"></Label>
+                <Entry Grid.Row="0" Grid.Column="1" Text="{Binding Name}" FontFamily="PoppinsBold" FontSize="20" VerticalOptions="Center"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Sex" VerticalOptions="Center"></Label>
+                <Grid Grid.Row="1" Grid.Column="1" ColumnDefinitions="*,*">
+                    <RadioButton Grid.Column="0" Content="Boy" IsChecked="{Binding IsBoy}" VerticalOptions="Center"></RadioButton>
+                    <RadioButton Grid.Column="1" Content="Girl" IsChecked="{Binding IsGirl}" VerticalOptions="Center"></RadioButton>
+                </Grid>
+            </Grid>
+
+            <Label Text="Prefers" FontFamily="PoppinsSemibold" TextColor="{StaticResource Gray300}"/>
+            <Grid RowDefinitions="*,*,*" ColumnDefinitions="0.5*,*" HeightRequest="180">
+                <Label Grid.Row="0" Grid.Column="0" Text="Type" VerticalOptions="Center"></Label>
+                <Grid Grid.Row="0" Grid.Column="1" RowDefinitions="*,*,*">
+                    <Grid Grid.Row="0" ColumnDefinitions="Auto,*">
+                        <CheckBox Grid.Column="0" IsChecked="{Binding LikeBreakfast}" VerticalOptions="Center"></CheckBox>
+                        <Label Grid.Column="1" Text="Breakfast"></Label>
+                    </Grid>
+                    <Grid Grid.Row="1" ColumnDefinitions="Auto,*">
+                        <CheckBox Grid.Column="0" IsChecked="{Binding LikeLunch}" VerticalOptions="Center"></CheckBox>
+                        <Label Grid.Column="1" Text="Lunch"></Label>
+                    </Grid>
+                    <Grid Grid.Row="2" ColumnDefinitions="Auto,*">
+                        <CheckBox Grid.Column="0" IsChecked="{Binding LikeDinner}" VerticalOptions="Center"></CheckBox>
+                        <Label Grid.Column="1" Text="Dinner"></Label>
+                    </Grid>
+                </Grid>
+                <Label Grid.Row="1" Grid.Column="0" Text="Time" VerticalOptions="Center"></Label>
+                <Slider Grid.Row="1" Grid.Column="1" Value="{Binding CookTime}" Minimum="0" Maximum="120" VerticalOptions="Center"/>
+                <HorizontalStackLayout Grid.Row="2" Grid.Column="1" VerticalOptions="Start" HorizontalOptions="Center">
+                    <Label Text="{Binding CookTime}" ></Label>
+                    <Label Text="min" Margin="10,0"></Label>
+                </HorizontalStackLayout>                
+            </Grid>
+
+            <Label Text="About App" FontFamily="PoppinsSemibold" TextColor="{StaticResource Gray300}"/>
+            <Grid RowDefinitions="*,*,*" ColumnDefinitions="0.5*,*" HeightRequest="120">
+                <Label Grid.Row="0" Grid.Column="0" Text="Author" VerticalOptions="Center"></Label>
+                <Label Grid.Row="0" Grid.Column="1" Text="Zhenyang Li" FontFamily="PoppinsBold" FontSize="20" VerticalOptions="Center"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="From" VerticalOptions="Center"></Label>
+                <Label Grid.Row="1" Grid.Column="1" Text="Faculty Of Engineering, Environment and Computing,Coventry University"></Label>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
