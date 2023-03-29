@@ -78,16 +78,22 @@ namespace app.ViewModels
 
         public async Task AddRecipe(RecipeItem recipe)
         {
-            if(recipe!= null && MyRecipes.Where(item=>item.FullName.Equals(recipe.FullName)).Count() == 0)
+            if (recipe!= null )
             {
-                MyRecipes.Add(recipe);
-                await SavetoFIle();
+                string text;
+                if (MyRecipes.Where(item => item.FullName.Equals(recipe.FullName)).Count() == 0)
+                {
+                    MyRecipes.Add(recipe);
+                    await SavetoFIle();
+                    text = "Recipe Added!";
+                }
+                else
+                {
+                    text = "Recipe Already Existed!";
+                }
 
-                CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
-                string text = $"Recipe Added!";
-                ToastDuration duration = ToastDuration.Short;
-                double fontSize = 18;
-                var toast = Toast.Make(text, duration, fontSize);
+                CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();                               
+                var toast = Toast.Make(text, ToastDuration.Short, 18);
                 await toast.Show(cancellationTokenSource.Token);
             }
         }
