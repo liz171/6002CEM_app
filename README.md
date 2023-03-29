@@ -6,13 +6,11 @@ I got my inspiration when a friend of mine said she wanted to learn how to cook,
 
 thanks for my friend!
 
-
-
 ## features
 
 - a page for browsing all recipes
 
-- a page for browsing all the cooking instructional videos
+- a page for browsing all the cooking instructions
 
 - a page for creating your own recipes
 
