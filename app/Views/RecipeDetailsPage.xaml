@@ -5,7 +5,7 @@
              xmlns:viewmodel="clr-namespace:app.ViewModels"
              xmlns:model="clr-namespace:app.Models"
              x:DataType="viewmodel:RecipeDetailsPageViewModel"    
-             Title="RecipeDetailsPage">
+             Title="Recipe Details">
     <ScrollView>
         <VerticalStackLayout Spacing="10">
             <Image Source="{Binding CurrentRecipe.Image}" HeightRequest="300" Aspect="AspectFill"/>

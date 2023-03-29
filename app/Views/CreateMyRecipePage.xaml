@@ -5,11 +5,12 @@
              xmlns:viewmodel="clr-namespace:app.ViewModels"
              xmlns:model="clr-namespace:app.Models"
              x:DataType="viewmodel:CreateMyRecipePageViewModel"    
-             Title="RecipeDetailsPage">
+             Title="Create MyRecipe">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
@@ -20,31 +21,50 @@
             <Button Grid.Column="1" Text="Cancel" Command="{Binding CancelCommand}"></Button>
         </Grid>
         <ScrollView Grid.Row="1">
-            <VerticalStackLayout Spacing="10" >
+            <VerticalStackLayout Spacing="10">
                 <Image Source="{Binding NewRecipe.Image}" HeightRequest="300" Aspect="AspectFill"/>
-                <Label Text="{Binding NewRecipe.TypeName}"
-                   FontFamily="NotoSerifBold"
-                   FontSize="26"
-                   Margin="20,10"/>
-                <StackLayout Orientation="Horizontal" Margin="20,0" Spacing="10">
-                    <Frame WidthRequest="32" HeightRequest="32" Padding="0" CornerRadius="16"
-                       BackgroundColor="{StaticResource Gray200}" BorderColor="Transparent">
-                        <Label Text="Soup yes"
-                           FontFamily="Material"
-                           FontSize="28"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center"
-                           TextColor="White"/>
-                    </Frame>
-                    <Label Text="2023-03-26"
-                       VerticalOptions="Center"
-                       TextColor="{StaticResource Gray400}"/>
-                </StackLayout>
-                <Label Text="{Binding NewRecipe.FullName}"
-                   Margin="20,0"
-                   FontSize="16"/>
+                <Grid HorizontalOptions="Fill" HeightRequest="60" ColumnDefinitions="*,Auto,20">
+                    <Entry Grid.Column="0" Text="{Binding NewRecipe.TypeName}" FontFamily="NotoSerifBold" HeightRequest="50" FontSize="26" Margin="20,10"/>
+                    <HorizontalStackLayout Grid.Column="1" >
+                        <Image Source="time.svg" Aspect="Fill" HeightRequest="30" WidthRequest="30"></Image>
+                        <Entry Text="{Binding NewRecipe.CookTime}" VerticalOptions="Center"></Entry>
+                    </HorizontalStackLayout>
+                </Grid>
+
+                <Entry  Text="{Binding NewRecipe.FullName}"  Style="{StaticResource fullnameLable}" Margin="20,0" VerticalOptions="Center"/>
+                <Entry Text="{Binding NewRecipe.BriefDescription}" Style="{StaticResource birefLabel}" HeightRequest="40" Margin="20,0" FontSize="16"/>
+                <ContentView >
+                    <CollectionView ItemsSource="{Binding NewRecipe.Steps}" >
+                        <CollectionView.EmptyView>
+                            <StackLayout >
+                                <Label Text="Empty" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                            </StackLayout>
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemsLayout >
+                            <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="model:StepModel">
+                                <Grid Padding="5" HorizontalOptions="Fill">
+                                    <Frame BorderColor="Blue"  CornerRadius="5">
+                                        <Grid Padding="0" RowDefinitions="Auto,Auto,*">
+                                            <Grid Grid.Row="0" ColumnDefinitions="Auto,*">
+                                                <Entry Grid.Column="0" Text="{Binding Index}" Style="{StaticResource fullnameLable}" VerticalOptions="Start" Margin="3"></Entry>
+                                                <Entry Grid.Column="1" Text="{Binding FirstStep}" Style="{StaticResource fullnameLable}" VerticalOptions="Center"></Entry>
+                                            </Grid>
+                                            <Entry Grid.Row="1" Text="{Binding SecondStep}" Style="{StaticResource typenameLable}"></Entry>
+                                            <Image Grid.Row="2" Source="{Binding Image}" Aspect="Fill"   />
+                                        </Grid>
+                                    </Frame>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                </ContentView>                
             </VerticalStackLayout>
         </ScrollView>
+        <ImageButton Grid.Row="2" Source="add.svg" Command="{Binding AddStepCommand}"></ImageButton>
 
     </Grid>
 </ContentPage>

@@ -19,7 +19,7 @@ namespace app.ViewModels
 
         public bool IsGirl
         {
-            get => !isBoy;
+            get => !IsBoy;
         }
 
         [ObservableProperty]

@@ -5,7 +5,7 @@
              xmlns:viewmodel="clr-namespace:app.ViewModels"
              xmlns:model="clr-namespace:app.Models"
              x:DataType="viewmodel:ProfilePageViewModel"   
-             Title="ProfilePage">
+             Title="Profile">
     <ScrollView>
         <VerticalStackLayout Padding="20">
             <Label Text="About me" FontFamily="PoppinsSemibold" TextColor="{StaticResource Gray300}"/>
@@ -49,7 +49,7 @@
                 <Label Grid.Row="0" Grid.Column="0" Text="Author" VerticalOptions="Center"></Label>
                 <Label Grid.Row="0" Grid.Column="1" Text="Zhenyang Li" FontFamily="PoppinsBold" FontSize="20" VerticalOptions="Center"/>
                 <Label Grid.Row="1" Grid.Column="0" Text="From" VerticalOptions="Center"></Label>
-                <Label Grid.Row="1" Grid.Column="1" Text="Faculty Of Engineering, Environment and Computing,Coventry University"></Label>
+                <Label Grid.Row="1" Grid.Column="1" Text="Faculty Of Engineering, Environment and Computing"></Label>
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
